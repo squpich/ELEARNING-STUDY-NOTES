@@ -1,0 +1,865 @@
+<!-- file10.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TMEL TP11 — Web 2.0, коммуникация, Mobile Apps и Web 3.0</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="index.html" class="logo">PDF Notes</a>
+
+      <nav class="main-nav" aria-label="Навигация по странице">
+        <a href="#web2">Web 2.0</a>
+        <a href="#tools">Инструменты</a>
+        <a href="#activity">Активность</a>
+        <a href="#communication">Коммуникация</a>
+        <a href="#mobile">Mobile Apps</a>
+        <a href="#web3">Web 3.0</a>
+        <a href="#exam">Экзамен</a>
+      </nav>
+
+      <button class="theme-toggle" type="button" aria-label="Переключить тему">
+        <span class="theme-toggle__icon">☾</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section note-hero reveal">
+      <div class="container note-layout">
+        <p class="eyebrow">TMEL · TP11 · Aula n.º 11 · 16.06.2026</p>
+        <h1>Web 2.0, коммуникационные инструменты, Mobile Apps и Web 3.0</h1>
+        <p class="hero-text">
+          Подробный конспект по последнему файлу курса: Web 2.0-платформы,
+          Wiki, Padlet, Notion, Miro, Trello, инструменты коммуникации,
+          Discord, Microsoft Teams, Slack, мобильные приложения и Web 3.0.
+        </p>
+
+        <div class="note-meta-grid">
+          <div class="note-meta-card">
+            <span>Дисциплина</span>
+            <strong>Tecnologias Multimédia para E-Learning</strong>
+          </div>
+          <div class="note-meta-card">
+            <span>Основные темы</span>
+            <strong>Web 2.0 · Comunicação · Mobile · Web 3.0</strong>
+          </div>
+          <div class="note-meta-card">
+            <span>Дата</span>
+            <strong>16.06.2026</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>1. Что изучается в этом файле</h2>
+
+          <p>
+            TP11 завершает технологический блок курса. В этом файле акцент сделан не на стандартах
+            вроде SCORM или xAPI, а на практических цифровых средах, которые поддерживают
+            сотрудничество, коммуникацию, управление проектами, мобильное обучение и интеллектуальные
+            формы e-learning.
+          </p>
+
+          <div class="callout">
+            <strong>Главная мысль:</strong> современные e-learning-среды строятся не только вокруг LMS.
+            Обучение усиливается через collaborative platforms, communication tools, mobile apps
+            и Web 3.0-инструменты, если они связаны с учебной целью и не создают лишний хаос.
+          </div>
+
+          <div class="topic-grid">
+            <div class="topic-card">
+              <h3>Web 2.0</h3>
+              <p>Переход от пассивного потребления информации к созданию, редактированию и совместному знанию.</p>
+            </div>
+
+            <div class="topic-card">
+              <h3>Wiki / Padlet / Notion</h3>
+              <p>Совместное письмо, сбор идей, организация информации, портфолио и базы знаний.</p>
+            </div>
+
+            <div class="topic-card">
+              <h3>Miro / Trello</h3>
+              <p>Визуальное мышление, co-creation, Kanban, координация задач и сопровождение проектов.</p>
+            </div>
+
+            <div class="topic-card">
+              <h3>Communication tools</h3>
+              <p>Discord, Microsoft Teams и Slack для синхронной и асинхронной коммуникации.</p>
+            </div>
+
+            <div class="topic-card">
+              <h3>Mobile Apps</h3>
+              <p>Мобильное обучение, microlearning, practice, quizzes, gamification и повторение.</p>
+            </div>
+
+            <div class="topic-card">
+              <h3>Web 3.0</h3>
+              <p>AI, semantic web, blockchain, chatbots, virtual tutors и predictive analytics.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="web2" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>2. Plataformas Web 2.0</h2>
+
+          <p>
+            Web 2.0-платформы характеризуются активным участием пользователей в создании,
+            публикации, редактировании, организации и распространении контента. Пользователь
+            перестает быть только потребителем информации и становится producer of information
+            and knowledge.
+          </p>
+
+          <div class="callout">
+            <strong>Короткое определение:</strong> Web 2.0 — это web-среда, где пользователи
+            создают, комментируют, редактируют, делятся и совместно строят знание.
+          </div>
+
+          <h3>Образовательная роль Web 2.0</h3>
+          <ul>
+            <li>Поддерживает collaboration, communication и collective knowledge construction.</li>
+            <li>Развивает digital competences и collaborative competences.</li>
+            <li>Создает более flexible learning environments.</li>
+            <li>Позволяет студентам contribute, comment, edit and share educational resources.</li>
+            <li>Поддерживает participatory methodologies и social learning.</li>
+            <li>Помогает связывать индивидуальную работу студента с групповым знанием.</li>
+          </ul>
+
+          <div class="callout">
+            <strong>Важно:</strong> Web 2.0 не равен “просто использовать онлайн-сервис”.
+            Учебная ценность появляется только тогда, когда есть задача, роли, критерии качества
+            и понятный результат совместной работы.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="tools" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>3. Wiki</h2>
+
+          <p>
+            Wiki — это collaborative platform, где несколько пользователей могут создавать,
+            редактировать и организовывать контент коллективно и непрерывно.
+          </p>
+
+          <h3>Главные функции Wiki</h3>
+          <ul>
+            <li>Совместное создание одного документа или проекта.</li>
+            <li>Collective construction of knowledge.</li>
+            <li>Групповые работы и production of content.</li>
+            <li>Развитие collaborative writing skills.</li>
+            <li>История изменений для контроля individual contributions.</li>
+            <li>Transparency в collaborative processes.</li>
+            <li>Negotiation of meanings, peer review и collaboration-based learning.</li>
+          </ul>
+
+          <div class="callout">
+            <strong>Когда использовать:</strong> Wiki подходит для glossary, коллективного конспекта,
+            базы знаний проекта, совместного исследования или документации e-learning-модуля.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>4. Padlet</h2>
+
+          <p>
+            Padlet — это collaborative digital platform для создания virtual walls, где пользователи
+            могут публиковать text, images, videos, links и другие multimedia resources.
+          </p>
+
+          <h3>Для чего подходит Padlet</h3>
+          <ul>
+            <li>Brainstorming.</li>
+            <li>Recolha de ideias — сбор идей.</li>
+            <li>Совместные активности в educational context.</li>
+            <li>Одновременный вклад преподавателей и студентов в одно digital space.</li>
+            <li>Быстрая визуализация вкладов группы.</li>
+            <li>Discussion, sharing perspectives и collective construction of knowledge.</li>
+            <li>Engagement в hybrid и online environments.</li>
+          </ul>
+
+          <div class="callout">
+            <strong>Когда использовать:</strong> Padlet хорош для быстрых идей, рефлексии после занятия,
+            сбора примеров, ссылок, изображений и peer feedback.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>5. Notion</h2>
+
+          <p>
+            Notion — это productivity и knowledge management platform, которая объединяет
+            documents, databases, tasks и collaboration в одном digital environment.
+          </p>
+
+          <h3>Образовательные применения Notion</h3>
+          <ul>
+            <li>Создание personalized learning spaces.</li>
+            <li>Digital portfolios.</li>
+            <li>Resource repositories.</li>
+            <li>Collaborative projects.</li>
+            <li>Organization of information.</li>
+            <li>Project management.</li>
+            <li>Collaborative construction of content между students и teachers.</li>
+            <li>Real-time collaboration, task coordination и progress tracking.</li>
+          </ul>
+
+          <div class="callout">
+            <strong>Когда использовать:</strong> Notion подходит для документации проекта,
+            базы материалов, Kanban-страницы, портфолио и финального отчета по e-learning-модулю.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>6. Miro</h2>
+
+          <p>
+            Miro — collaborative platform based on digital boards. Она позволяет создавать
+            mind maps, diagrams, flowcharts и co-creation activities в real time.
+          </p>
+
+          <h3>Что дает Miro</h3>
+          <ul>
+            <li>Brainstorming.</li>
+            <li>Design thinking.</li>
+            <li>Visual project management.</li>
+            <li>Collaborative learning.</li>
+            <li>Problem solving.</li>
+            <li>Group projects.</li>
+            <li>Интеграция разных types of multimedia content.</li>
+            <li>Visual representation of complex ideas.</li>
+            <li>Simultaneous work of multiple users.</li>
+            <li>Communication, creativity и collective construction of solutions.</li>
+          </ul>
+
+          <div class="callout">
+            <strong>Когда использовать:</strong> Miro особенно полезен для storyboard,
+            карты модуля, UX-flow, схемы взаимодействий и mind map проекта.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>7. Trello</h2>
+
+          <p>
+            Trello — visual project management platform based on Kanban. Она организует задачи
+            через boards, lists и cards, которые показывают workflow проекта.
+          </p>
+
+          <h3>Функции Trello</h3>
+          <ul>
+            <li>Организация задач через boards, lists и cards.</li>
+            <li>Progress tracking.</li>
+            <li>Distribution of responsibilities.</li>
+            <li>Identification of blockers.</li>
+            <li>Labels, checklists, due dates и comments.</li>
+            <li>Asynchronous communication between participants.</li>
+            <li>Autonomy, self-regulation и planning skills.</li>
+          </ul>
+
+          <h3>Пример Kanban для e-learning-проекта</h3>
+          <div class="responsive-table">
+            <table class="study-table">
+              <thead>
+                <tr>
+                  <th>Колонка</th>
+                  <th>Смысл</th>
+                  <th>Примеры задач</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>To Do</strong></td>
+                  <td>Задачи, которые еще не начаты.</td>
+                  <td>Написать script, подготовить quiz, сделать alt text.</td>
+                </tr>
+                <tr>
+                  <td><strong>In Progress</strong></td>
+                  <td>Задачи в работе.</td>
+                  <td>Монтаж видео, верстка страницы, подготовка инфографики.</td>
+                </tr>
+                <tr>
+                  <td><strong>Review</strong></td>
+                  <td>Задачи на проверке.</td>
+                  <td>Проверка UX, accessibility, feedback, орфографии.</td>
+                </tr>
+                <tr>
+                  <td><strong>Done</strong></td>
+                  <td>Завершенные задачи.</td>
+                  <td>Опубликованная страница, готовый quiz, финальная документация.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="callout">
+            <strong>Для сдачи проекта:</strong> Trello или аналогичная Kanban-доска может служить evidence
+            of project management: видно, как шла разработка, кто что делал и какие задачи закрыты.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="activity" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>8. Активность “Mapa dos Projetos da Turma”</h2>
+
+          <p>
+            В файле есть активность на 20 минут. Нужно использовать одну из Web 2.0-платформ:
+            Wiki, Padlet, Notion, Miro или Trello. Задача — создать collaborative space of the class,
+            где другие студенты смогут познакомиться с проектами группы.
+          </p>
+
+          <h3>Что должен содержать каждый проект</h3>
+          <ul>
+            <li>Título do Projeto — название проекта.</li>
+            <li>Autores — авторы.</li>
+            <li>Descrição breve do projeto — краткое описание, максимум 100 слов.</li>
+            <li>Tecnologias Utilizadas — использованные технологии.</li>
+            <li>Ligação para o Projeto — ссылка на проект.</li>
+            <li>Elemento Visual — визуальный элемент.</li>
+          </ul>
+
+          <h3>После публикации</h3>
+          <p>
+            После публикации проектов нужно оставить constructive comment к каждому проекту.
+            Это связывает Web 2.0 с peer feedback, collaborative learning и social participation.
+          </p>
+
+          <div class="callout">
+            <strong>Практический смысл:</strong> активность тренирует не только публикацию проекта,
+            но и умение кратко описывать работу, показывать технологии, давать ссылку,
+            визуализировать результат и давать конструктивную обратную связь.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="communication" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>9. Ferramentas de Comunicação</h2>
+
+          <p>
+            Инструменты коммуникации играют центральную роль в collaboration, team coordination
+            и construction of learning communities в presencial, hybrid и online environments.
+          </p>
+
+          <div class="callout">
+            <strong>Короткое определение:</strong> communication tools поддерживают synchronous
+            и asynchronous communication, позволяя обмениваться информацией, обсуждать идеи
+            и сопровождать проекты.
+          </div>
+
+          <h3>Почему они важны в e-learning</h3>
+          <ul>
+            <li>Поддерживают communication между students и teachers.</li>
+            <li>Помогают coordination of teams.</li>
+            <li>Формируют learning communities.</li>
+            <li>Позволяют sharing of information и discussion of ideas.</li>
+            <li>Поддерживают continuous monitoring of projects and educational activities.</li>
+            <li>В collaborative learning качество коммуникации влияет на participation, engagement и belonging.</li>
+            <li>Интегрируют messages, videoconference, file sharing и team organization.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>10. Discord</h2>
+
+          <p>
+            Discord изначально создавался для gaming communities, но сейчас широко используется
+            в educational, professional и collaborative contexts.
+          </p>
+
+          <h3>Возможности Discord</h3>
+          <ul>
+            <li>Servers для организации community.</li>
+            <li>Text channels для тематических обсуждений.</li>
+            <li>Voice channels для живого общения.</li>
+            <li>Screen sharing.</li>
+            <li>Videoconference.</li>
+            <li>Bot integration.</li>
+            <li>Создание communities of practice.</li>
+            <li>Informal learning и peer collaboration.</li>
+          </ul>
+
+          <div class="callout">
+            <strong>Когда использовать:</strong> Discord подходит для постоянной учебной community,
+            быстрых вопросов, проектных каналов, голосовых консультаций и неформальной поддержки.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>11. Microsoft Teams</h2>
+
+          <p>
+            Microsoft Teams — integrated collaboration platform, которая объединяет communication,
+            videoconference, document management и collaborative work в organizational
+            и educational environments.
+          </p>
+
+          <h3>Главные особенности Teams</h3>
+          <ul>
+            <li>Интеграция с Microsoft 365.</li>
+            <li>Доступ к Word, Excel, PowerPoint, OneDrive и SharePoint.</li>
+            <li>Synchronous classes.</li>
+            <li>Communication between teachers and students.</li>
+            <li>Team management.</li>
+            <li>Project monitoring.</li>
+            <li>Channels organized by teams or subjects.</li>
+            <li>Efficient sharing of educational resources and documents.</li>
+            <li>Комбинация synchronous и asynchronous communication.</li>
+          </ul>
+
+          <div class="callout">
+            <strong>Когда использовать:</strong> Teams лучше подходит для формальной учебной среды,
+            занятий, файлов, командной структуры и интеграции с документами Microsoft.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>12. Slack</h2>
+
+          <p>
+            Slack — communication platform based on thematic channels. Ее цель — уменьшить
+            зависимость от email и ускорить coordination внутри команды или проекта.
+          </p>
+
+          <h3>Типовые функции Slack</h3>
+          <ul>
+            <li>Thematic channels для разных тем или задач.</li>
+            <li>Threads для структурированных обсуждений.</li>
+            <li>Direct messages.</li>
+            <li>File sharing.</li>
+            <li>Integrations with external tools.</li>
+            <li>Notifications и search.</li>
+            <li>Project communication и asynchronous coordination.</li>
+            <li>Professional workflow в командах.</li>
+          </ul>
+
+          <div class="callout">
+            <strong>Когда использовать:</strong> Slack удобен для проектной коммуникации,
+            если нужны каналы по задачам, интеграции с сервисами и быстрые асинхронные обсуждения.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>13. Как не превратить коммуникацию в хаос</h2>
+
+          <p>
+            Communication tools полезны только тогда, когда коммуникация структурирована.
+            Иначе студент получает overload: слишком много уведомлений, каналов, сообщений
+            и непонятных мест, где искать информацию.
+          </p>
+
+          <div class="compact-list">
+            <p><strong>Правило 1:</strong> определить, где обсуждается контент, где проект, где технические вопросы.</p>
+            <p><strong>Правило 2:</strong> не дублировать одну и ту же информацию во всех каналах.</p>
+            <p><strong>Правило 3:</strong> закреплять важные инструкции, дедлайны и ссылки.</p>
+            <p><strong>Правило 4:</strong> использовать названия каналов понятно: #general, #project, #questions, #resources.</p>
+            <p><strong>Правило 5:</strong> согласовать ожидания по скорости ответа.</p>
+            <p><strong>Правило 6:</strong> помнить, что коммуникация должна поддерживать learning, а не заменять структуру курса.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="mobile" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>14. Mobile Apps в e-learning</h2>
+
+          <p>
+            Mobile apps поддерживают learning on the move, microlearning, repetition,
+            quick practice и gamification. Они особенно полезны для коротких упражнений,
+            проверок, напоминаний и повседневной практики.
+          </p>
+
+          <h3>Образовательные функции mobile apps</h3>
+          <ul>
+            <li>Короткие учебные блоки.</li>
+            <li>Повторение материала.</li>
+            <li>Quizzes и immediate feedback.</li>
+            <li>Gamification: points, streaks, badges, levels.</li>
+            <li>Personal progress.</li>
+            <li>Learning anywhere and anytime.</li>
+            <li>Push notifications и reminders.</li>
+            <li>Практика между основными занятиями.</li>
+          </ul>
+
+          <h3>Примеры мобильных приложений</h3>
+          <div class="responsive-table">
+            <table class="study-table">
+              <thead>
+                <tr>
+                  <th>Приложение</th>
+                  <th>Образовательная функция</th>
+                  <th>Что можно перенять для e-learning-модуля</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Kahoot!</strong></td>
+                  <td>Игровые quizzes и быстрая проверка знаний.</td>
+                  <td>Короткие вопросы, engagement, immediate feedback.</td>
+                </tr>
+                <tr>
+                  <td><strong>Duolingo</strong></td>
+                  <td>Microlearning, streaks, repetition и gamification.</td>
+                  <td>Маленькие уроки, progress, мотивационные элементы.</td>
+                </tr>
+                <tr>
+                  <td><strong>Codecademy Go</strong></td>
+                  <td>Повторение и практика programming concepts на телефоне.</td>
+                  <td>Learning by doing, мини-задания, закрепление.</td>
+                </tr>
+                <tr>
+                  <td><strong>Elevate</strong></td>
+                  <td>Короткие тренировки cognitive skills.</td>
+                  <td>Challenge-based activities и персонализированный прогресс.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="callout">
+            <strong>Важно:</strong> mobile learning — это не просто уменьшенная desktop-страница.
+            Нужны короткие блоки, крупные touch targets, ясная навигация и быстрые действия.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="web3" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>15. Web 3.0</h2>
+
+          <p>
+            Web 3.0 в презентации описывается как развитие интернета в сторону более
+            decentralized, intelligent и user-oriented environments. Он связан с AI,
+            blockchain, semantic computing и более персонализированным доступом к информации.
+          </p>
+
+          <div class="callout">
+            <strong>Короткое определение:</strong> Web 3.0 — это этап развития web,
+            где системы лучше понимают данные, их связи и контекст, а пользователи получают
+            больше personalization, interoperability и control over data.
+          </div>
+
+          <h3>Основные признаки Web 3.0</h3>
+          <ul>
+            <li>Демократизация информации для всех users.</li>
+            <li>Идея freely accessible content.</li>
+            <li>Информация должна доходить до конечного пользователя easy and functional way.</li>
+            <li>Semantic categories in displayed data.</li>
+            <li>Использование XML и semantic organization of information.</li>
+            <li>AI и semantic computing для более contextualized responses.</li>
+            <li>Blockchain для decentralized trust, digital identity и ownership of assets.</li>
+            <li>Меньшая зависимость от centralized platforms и intermediaries.</li>
+          </ul>
+
+          <h3>Вызовы Web 3.0</h3>
+          <ul>
+            <li>Scalability.</li>
+            <li>Regulation.</li>
+            <li>Digital literacy.</li>
+            <li>Maturity of infrastructure.</li>
+            <li>Data protection.</li>
+            <li>Bias и reliability of AI-generated outputs.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>16. Web 3.0: educational chatbots</h2>
+
+          <p>
+            Educational chatbots — conversational systems, которые используют AI и natural language
+            processing для поддержки студентов через automatic answers, orientation и быстрый доступ
+            к relevant information.
+          </p>
+
+          <h3>Что могут делать chatbots</h3>
+          <ul>
+            <li>Отвечать на frequently asked questions.</li>
+            <li>Поддерживать студентов вне учебного расписания.</li>
+            <li>Снижать administrative load преподавателей и support services.</li>
+            <li>Помогать navigate content.</li>
+            <li>Находить resources.</li>
+            <li>Сопровождать learning activities.</li>
+            <li>Давать contextualized explanations.</li>
+            <li>Поддерживать more complex learning tasks через generative language models.</li>
+          </ul>
+
+          <div class="callout">
+            <strong>Ограничение:</strong> chatbots могут давать incorrect или biased answers.
+            Поэтому нужны human supervision и AI literacy.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>17. Web 3.0: virtual tutors и predictive analytics</h2>
+
+          <p>
+            Web 3.0-инструменты в образовании могут не только отвечать на вопросы, но и сопровождать
+            студента, адаптировать объяснения и анализировать данные для раннего выявления трудностей.
+          </p>
+
+          <div class="topic-grid">
+            <div class="topic-card">
+              <h3>Virtual tutors</h3>
+              <p>Могут давать подсказки, объяснять тему, сопровождать маршрут и поддерживать автономное обучение.</p>
+            </div>
+
+            <div class="topic-card">
+              <h3>Predictive analytics</h3>
+              <p>Использует данные, чтобы прогнозировать трудности, dropout risk и потребность в intervention.</p>
+            </div>
+
+            <div class="topic-card">
+              <h3>Personalization</h3>
+              <p>Контент и рекомендации могут адаптироваться под прогресс, ошибки и стиль работы студента.</p>
+            </div>
+          </div>
+
+          <h3>Риски</h3>
+          <ul>
+            <li>Неправильная интерпретация данных.</li>
+            <li>Bias в алгоритмах.</li>
+            <li>Privacy и data protection.</li>
+            <li>Слишком сильная зависимость от автоматических подсказок.</li>
+            <li>Необходимость критического мышления и проверки информации.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>18. Сравнение инструментов TP11</h2>
+
+          <div class="responsive-table">
+            <table class="study-table">
+              <thead>
+                <tr>
+                  <th>Инструмент / группа</th>
+                  <th>Основная функция</th>
+                  <th>Лучшее применение в e-learning</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Wiki</strong></td>
+                  <td>Коллективное создание и редактирование знаний.</td>
+                  <td>Глоссарий, база знаний, коллективный конспект.</td>
+                </tr>
+                <tr>
+                  <td><strong>Padlet</strong></td>
+                  <td>Виртуальная доска для идей и ресурсов.</td>
+                  <td>Brainstorming, сбор ссылок, рефлексия.</td>
+                </tr>
+                <tr>
+                  <td><strong>Notion</strong></td>
+                  <td>Организация знаний, задач и документов.</td>
+                  <td>Документация проекта, portfolio, repository.</td>
+                </tr>
+                <tr>
+                  <td><strong>Miro</strong></td>
+                  <td>Визуальные доски и co-creation.</td>
+                  <td>Mind map, storyboard, UX-flow, project mapping.</td>
+                </tr>
+                <tr>
+                  <td><strong>Trello</strong></td>
+                  <td>Kanban и visual project management.</td>
+                  <td>Планирование задач, tracking, распределение работы.</td>
+                </tr>
+                <tr>
+                  <td><strong>Discord</strong></td>
+                  <td>Community communication.</td>
+                  <td>Неформальная поддержка, каналы, voice rooms.</td>
+                </tr>
+                <tr>
+                  <td><strong>Teams</strong></td>
+                  <td>Формальная учебная коммуникация и документы.</td>
+                  <td>Занятия, файлы, группы, Microsoft 365.</td>
+                </tr>
+                <tr>
+                  <td><strong>Slack</strong></td>
+                  <td>Professional communication через channels.</td>
+                  <td>Проектная команда, threads, integrations.</td>
+                </tr>
+                <tr>
+                  <td><strong>Mobile apps</strong></td>
+                  <td>Microlearning и practice.</td>
+                  <td>Короткие задания, quizzes, repetition.</td>
+                </tr>
+                <tr>
+                  <td><strong>Web 3.0</strong></td>
+                  <td>AI, personalization, semantic data.</td>
+                  <td>Chatbots, virtual tutors, predictive analytics.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>19. Частые ошибки</h2>
+
+          <div class="compact-list">
+            <p><strong>Ошибка 1:</strong> считать Web 2.0 просто списком сервисов, а не моделью участия пользователей.</p>
+            <p><strong>Ошибка 2:</strong> использовать Padlet, Miro или Notion без учебной задачи.</p>
+            <p><strong>Ошибка 3:</strong> делать Wiki без правил редактирования и контроля качества.</p>
+            <p><strong>Ошибка 4:</strong> использовать Trello формально, без реального workflow.</p>
+            <p><strong>Ошибка 5:</strong> создавать слишком много каналов в Discord/Teams/Slack.</p>
+            <p><strong>Ошибка 6:</strong> путать синхронную и асинхронную коммуникацию.</p>
+            <p><strong>Ошибка 7:</strong> переносить большой desktop-контент в mobile без адаптации.</p>
+            <p><strong>Ошибка 8:</strong> считать Web 3.0 только “AI”. Он также связан с semantic web, decentralization и data control.</p>
+            <p><strong>Ошибка 9:</strong> доверять chatbot без проверки и human supervision.</p>
+            <p><strong>Ошибка 10:</strong> забывать, что любой инструмент должен быть связан с learning objectives.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="exam" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>20. Что важно запомнить к экзамену</h2>
+
+          <h3>Мини-конспект</h3>
+          <div class="compact-list">
+            <p><strong>Web 2.0:</strong> активное участие пользователей в создании, редактировании, организации и sharing of content.</p>
+            <p><strong>Wiki:</strong> collaborative writing, history of changes, peer review, collective knowledge.</p>
+            <p><strong>Padlet:</strong> virtual walls, brainstorming, multimedia posts, engagement, synchronous/asynchronous collaboration.</p>
+            <p><strong>Notion:</strong> documents, databases, tasks, collaboration, portfolios, repositories, project management.</p>
+            <p><strong>Miro:</strong> digital boards, mind maps, diagrams, flowcharts, design thinking, co-creation.</p>
+            <p><strong>Trello:</strong> Kanban, boards, lists, cards, labels, checklists, due dates, comments.</p>
+            <p><strong>Communication tools:</strong> collaboration, coordination, learning communities, synchronous/asynchronous communication.</p>
+            <p><strong>Discord:</strong> servers, text/voice channels, bots, screen sharing, informal learning communities.</p>
+            <p><strong>Microsoft Teams:</strong> Microsoft 365, videoconference, files, channels, formal educational management.</p>
+            <p><strong>Slack:</strong> thematic channels, threads, integrations, asynchronous project communication.</p>
+            <p><strong>Mobile apps:</strong> microlearning, quizzes, repetition, gamification, learning on the move.</p>
+            <p><strong>Web 3.0:</strong> AI, semantic web, blockchain, personalization, interoperability, user control of data.</p>
+            <p><strong>Educational chatbots:</strong> automatic answers, orientation, resource access, AI support, but need supervision.</p>
+          </div>
+
+          <h3>Вопросы для самопроверки</h3>
+          <div class="compact-list">
+            <p><strong>1. Что отличает Web 2.0 от более пассивной web-модели?</strong><br>
+              Пользователь не только читает, но создает, редактирует, комментирует, делится и организует контент.</p>
+
+            <p><strong>2. Для чего лучше всего подходит Wiki?</strong><br>
+              Для коллективного создания знаний, групповых документов, глоссариев и collaborative writing.</p>
+
+            <p><strong>3. Почему Padlet полезен в учебном контексте?</strong><br>
+              Он быстро собирает идеи, материалы и мнения группы в одном визуальном пространстве.</p>
+
+            <p><strong>4. Чем Notion отличается от Padlet?</strong><br>
+              Padlet лучше для доски идей, Notion — для структурированной базы знаний, задач и документации.</p>
+
+            <p><strong>5. Для чего использовать Miro?</strong><br>
+              Для mind maps, diagrams, flowcharts, storyboard, co-creation и визуального планирования.</p>
+
+            <p><strong>6. Что делает Trello?</strong><br>
+              Организует проект через Kanban: boards, lists, cards, labels, checklists и due dates.</p>
+
+            <p><strong>7. Почему коммуникационные инструменты важны в e-learning?</strong><br>
+              Они поддерживают сотрудничество, координацию команд, обсуждение, engagement и чувство принадлежности.</p>
+
+            <p><strong>8. Чем Discord отличается от Teams?</strong><br>
+              Discord больше похож на community space с серверами и каналами; Teams более формален и интегрирован с Microsoft 365.</p>
+
+            <p><strong>9. Что важно учитывать при mobile learning?</strong><br>
+              Короткие блоки, быстрые действия, responsive design, крупные элементы и минимальная перегрузка.</p>
+
+            <p><strong>10. Что такое Web 3.0?</strong><br>
+              Более интеллектуальная, персонализированная, децентрализованная и семантически организованная web-среда.</p>
+
+            <p><strong>11. Как chatbots помогают e-learning?</strong><br>
+              Они отвечают на вопросы, помогают навигации, дают быстрый доступ к ресурсам и поддерживают студента вне расписания.</p>
+
+            <p><strong>12. Главный вывод TP11?</strong><br>
+              Цифровые инструменты полезны только тогда, когда они поддерживают collaboration, communication, engagement, project management и learning objectives.</p>
+          </div>
+
+          <div class="callout">
+            <strong>Финальный вывод:</strong> TP11 показывает практическую экосистему современного e-learning:
+            Web 2.0 дает совместное создание знаний, communication tools поддерживают учебное сообщество,
+            mobile apps усиливают microlearning, а Web 3.0 открывает возможности AI, personalization
+            и intelligent learning support.
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 PDF Notes · TMEL TP11</p>
+      <a href="index.html">Вернуться на главную</a>
+    </div>
+  </footer>
+</body>
+</html>

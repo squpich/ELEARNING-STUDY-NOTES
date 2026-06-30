@@ -1,0 +1,160 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TMEL — Учебные конспекты</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="index.html" class="logo">PDF Notes</a>
+
+      <nav class="main-nav" aria-label="Главная навигация">
+        <a href="#files">Конспекты</a>
+        <a href="#about">Как пользоваться</a>
+      </nav>
+
+      <button class="theme-toggle" type="button" aria-label="Переключить тему">
+        <span class="theme-toggle__icon">☾</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section reveal">
+      <div class="container hero-content">
+        <p class="eyebrow">Tecnologias Multimédia para E-Learning</p>
+        <h1>Учебные конспекты TMEL</h1>
+        <p class="hero-text">
+          Структурированный сайт-конспект по PDF-файлам курса: теория, таблицы,
+          схемы, примеры, самопроверка.
+        </p>
+        <a href="#files" class="button button-primary">Выбрать конспект</a>
+      </div>
+    </section>
+
+    <section id="files" class="section files reveal">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow">Материалы курса</p>
+          <h2>Выбери файл, который хочешь изучать</h2>
+          <p>
+            Все страницы используют общий <strong>styles.css</strong> и <strong>script.js</strong>.
+            Названия ниже соответствуют созданным файлам <strong>file1.html — file10.html</strong>.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="file-card">
+            <span class="file-card__number">01</span>
+            <h3>TP01 — Введение в e-learning</h3>
+            <p>Стартовый блок курса: базовая логика e-learning, учебный контекст и основные ориентиры.</p>
+            <a href="file1.html" class="button button-secondary">Открыть конспект</a>
+          </article>
+
+          <article class="file-card">
+            <span class="file-card__number">02</span>
+            <h3>TP02 — Основы дистанционного обучения</h3>
+            <p>Ensino à Distância, проект фазы 1, роли студента и преподавателя, типы обучения и подходы.</p>
+            <a href="file2.html" class="button button-secondary">Открыть конспект</a>
+          </article>
+
+          <article class="file-card">
+            <span class="file-card__number">03</span>
+            <h3>TP03 — Теории обучения и системы EaD</h3>
+            <p>Behaviorismo, construtivismo, conectivismo, e-learning, b-learning, m-learning и t-learning.</p>
+            <a href="file3.html" class="button button-secondary">Открыть конспект</a>
+          </article>
+
+          <article class="file-card">
+            <span class="file-card__number">04</span>
+            <h3>TP04 — MOOC и мультимедиа</h3>
+            <p>Massive Open Online Courses, виды мультимедиа и принципы мультимедийного обучения Mayer.</p>
+            <a href="file4.html" class="button button-secondary">Открыть конспект</a>
+          </article>
+
+          <article class="file-card">
+            <span class="file-card__number">05</span>
+            <h3>TP05 — Студент и e-learning</h3>
+            <p>Lifelong learning, digital literacy, DigComp 3.0, планирование, storyboard и производство контента.</p>
+            <a href="file5.html" class="button button-secondary">Открыть конспект</a>
+          </article>
+
+          <article class="file-card">
+            <span class="file-card__number">06</span>
+            <h3>TP06 — Instructional Design: ADDIE и SAM</h3>
+            <p>Design instrucional, принципы Merrill, модель ADDIE, модель SAM и сравнение подходов.</p>
+            <a href="file6.html" class="button button-secondary">Открыть конспект</a>
+          </article>
+
+          <article class="file-card">
+            <span class="file-card__number">07</span>
+            <h3>TP07 — Инклюзия, доступность, UX и аналитика</h3>
+            <p>Educação Inclusiva, Acessibilidade, UDL, WCAG, Learning Analytics, UX, LMS и стандарты.</p>
+            <a href="file7.html" class="button button-secondary">Открыть конспект</a>
+          </article>
+
+          <article class="file-card">
+            <span class="file-card__number">08</span>
+            <h3>TP09 — LMS, CMS, LCMS и технологии e-learning</h3>
+            <p>Платформы управления обучением, контентом, стандарты, Scrum, Kanban и цифровые инструменты.</p>
+            <a href="file8.html" class="button button-secondary">Открыть конспект</a>
+          </article>
+
+          <article class="file-card">
+            <span class="file-card__number">09</span>
+            <h3>TP10 — eLearning Standards и Web Tools</h3>
+            <p>SCORM, xAPI, cmi5, LTI, интерактивность, Web 2.0, communication tools, Web 3.0 и mobile apps.</p>
+            <a href="file9.html" class="button button-secondary">Открыть конспект</a>
+          </article>
+
+          <article class="file-card">
+            <span class="file-card__number">10</span>
+            <h3>TP11 — Web 2.0, коммуникация, Mobile Apps и Web 3.0</h3>
+            <p>Wiki, Padlet, Notion, Miro, Trello, Discord, Teams, Slack, мобильное обучение и AI-инструменты.</p>
+            <a href="file10.html" class="button button-secondary">Открыть конспект</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about reveal">
+      <div class="container about-content">
+        <div>
+          <p class="eyebrow">Как пользоваться</p>
+          <h2>Один сайт — десять страниц-конспектов</h2>
+        </div>
+      
+        <div class="about-list">
+          <div class="about-item">
+            <h3>1. Выбери тему</h3>
+            <p>Открой карточку нужного TP-файла и переходи к соответствующей странице.</p>
+          </div>
+        
+          <div class="about-item">
+            <h3>2. Изучай материал</h3>
+            <p>На страницах есть определения, таблицы, схемы, частые ошибки, мини-конспект и вопросы для самопроверки.</p>
+          </div>
+        
+          <div class="about-item">
+            <h3>3. Повторяй перед проверкой</h3>
+            <p>Используй мини-конспекты и вопросы в конце каждой страницы, чтобы быстро повторить ключевые темы курса.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 PDF Notes · TMEL</p>
+      <a href="index.html">На главную</a>
+    </div>
+  </footer>
+</body>
+</html>

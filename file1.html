@@ -1,0 +1,367 @@
+<!-- file1.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TMEL TP01 — Конспект</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="index.html" class="logo">PDF Notes</a>
+
+      <nav class="main-nav" aria-label="Навигация по странице">
+        <a href="#overview">Обзор</a>
+        <a href="#fuc">FUC</a>
+        <a href="#assessment">Оценивание</a>
+        <a href="#distance-learning">EaD</a>
+      </nav>
+
+      <button class="theme-toggle" type="button" aria-label="Переключить тему">
+        <span class="theme-toggle__icon">☾</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section note-hero reveal">
+      <div class="container note-layout">
+        <p class="eyebrow">TMEL · TP01</p>
+        <h1>Технологии мультимедиа для e-learning</h1>
+        <p class="hero-text">
+          Конспект первой презентации курса: структура дисциплины, цели, компетенции,
+          содержание, оценивание, проект и базовые понятия дистанционного обучения.
+        </p>
+
+        <div class="note-meta-grid">
+          <div class="note-meta-card">
+            <span>Курс</span>
+            <strong>Licenciatura em Engenharia Multimédia</strong>
+          </div>
+          <div class="note-meta-card">
+            <span>Дисциплина</span>
+            <strong>Tecnologias Multimédia para E-Learning</strong>
+          </div>
+          <div class="note-meta-card">
+            <span>Год / семестр</span>
+            <strong>2º ano · 2º semestre</strong>
+          </div>
+          <div class="note-meta-card">
+            <span>ECTS</span>
+            <strong>6</strong>
+          </div>
+          <div class="note-meta-card">
+            <span>Преподаватель</span>
+            <strong>Ana Isabel Azevedo</strong>
+          </div>
+          <div class="note-meta-card">
+            <span>Email</span>
+            <strong>ana.azevedo@my.istec.pt</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="overview" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>1. Общий смысл занятия</h2>
+          <p>
+            Первая презентация вводит дисциплину TMEL и объясняет, что в течение семестра
+            студент должен научиться проектировать, создавать и оценивать мультимедийные
+            e-learning-решения.
+          </p>
+
+          <div class="callout">
+            <strong>Главная идея:</strong>
+            курс не только про теорию e-learning, но и про разработку полноценного
+            мультимедийного учебного модуля с учетом педагогики, UX, интерактивности,
+            доступности, стандартов и управления проектом.
+          </div>
+
+          <h3>Warm-up и социальная активность</h3>
+          <p>
+            В начале занятия предлагается рефлексия о личном опыте цифрового обучения.
+            Студент должен вспомнить, какие платформы, приложения и инструменты он уже
+            использовал, а также определить лучшую и худшую цифровую учебную ситуацию.
+          </p>
+
+          <h4>Задание “Mapa da Aprendizagem Digital”</h4>
+          <ul>
+            <li>В центре карты пишется имя студента.</li>
+            <li>Ветви карты: платформы обучения, приложения и инструменты, позитивный опыт, трудности.</li>
+            <li>Каждая категория заполняется собственными наблюдениями и опытом.</li>
+            <li>Затем карта кратко представляется группе.</li>
+            <li>Продолжительность: 15 минут.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="fuc" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>2. FUC — ficha da unidade curricular</h2>
+          <p>
+            FUC — это паспорт дисциплины: в нем указаны цели, компетенции, содержание,
+            способ оценивания, календарь, проект и правила коммуникации.
+          </p>
+
+          <h3>Цели дисциплины</h3>
+          <div class="compact-list">
+            <p>Понимать основы дистанционного обучения, его форматы, контексты и теории обучения.</p>
+            <p>Применять принципы мультимедийного обучения и instructional design.</p>
+            <p>Планировать образовательный мультимедийный контент: цели, структура, формат, аудитория.</p>
+            <p>Создавать учебные материалы с изображением, аудио и видео.</p>
+            <p>Разрабатывать интерактивный e-learning-контент с учетом engagement и UX.</p>
+            <p>Использовать LMS, LCMS и CMS для организации и публикации учебных материалов.</p>
+            <p>Интегрировать контент по стандартам SCORM, xAPI, cmi5 и LTI.</p>
+            <p>Применять UDL и WCAG для доступности и инклюзии.</p>
+            <p>Анализировать VR, AR, mobile learning, AI и образовательные чатботы.</p>
+            <p>Оценивать UX, performance, engagement analytics и learning analytics.</p>
+            <p>Использовать цифровые инструменты коммуникации и совместной работы.</p>
+            <p>Применять Scrum и Kanban в e-learning-проектах.</p>
+            <p>Создать функциональный e-learning-модуль.</p>
+          </div>
+
+          <h3>Компетенции</h3>
+          <ul>
+            <li>Распознавать характеристики дистанционного обучения и разных моделей e-learning.</li>
+            <li>Планировать мультимедийный учебный контент на основе целей обучения.</li>
+            <li>Понимать роль мультимедиа и когнитивные принципы эффективности учебного контента.</li>
+            <li>Понимать интерактивность, usability и UX в цифровой образовательной среде.</li>
+            <li>Учитывать цифровую доступность и инклюзию.</li>
+            <li>Интегрировать контент через SCORM, xAPI, cmi5 и LTI.</li>
+            <li>Оценивать эффективность систем через engagement и learning analytics.</li>
+            <li>Демонстрировать автономность, критическое мышление, инициативность и техническую аккуратность.</li>
+          </ul>
+
+          <h3>Содержание курса</h3>
+          <div class="topic-grid">
+            <div class="topic-card">
+              <h4>1. Основы дистанционного обучения</h4>
+              <ul>
+                <li>Формальное, неформальное и информальное образование.</li>
+                <li>Педагогика, андрагогика, хьютагогика.</li>
+                <li>Бихевиоризм, конструктивизм, коннективизм.</li>
+                <li>E-learning, B-learning, M-learning, T-learning.</li>
+                <li>MOOC: Coursera, Udemy, edX, Udacity.</li>
+                <li>Роль мультимедиа в e-learning.</li>
+                <li>Cognitive Load Theory и принципы Mayer.</li>
+              </ul>
+            </div>
+
+            <div class="topic-card">
+              <h4>2. Студент и e-learning</h4>
+              <ul>
+                <li>Обучение на протяжении всей жизни.</li>
+                <li>Планирование контента.</li>
+                <li>Производство образовательного мультимедиа.</li>
+                <li>ADDIE и SAM.</li>
+                <li>VR/AR в e-learning.</li>
+                <li>UDL и WCAG.</li>
+                <li>Engagement Analytics и Learning Analytics.</li>
+              </ul>
+            </div>
+
+            <div class="topic-card">
+              <h4>3. Мультимедийные технологии</h4>
+              <ul>
+                <li>Интерактивность и активные стратегии.</li>
+                <li>LMS, LCMS, CMS.</li>
+                <li>SCORM, xAPI, cmi5, LTI.</li>
+                <li>User Experience и performance.</li>
+                <li>Web 2.0, Web 3.0, mobile apps.</li>
+                <li>Инструменты коммуникации.</li>
+                <li>Scrum и Kanban.</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="assessment" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>3. Оценивание</h2>
+
+          <div class="two-column">
+            <div class="info-card">
+              <h3>Непрерывное оценивание — 40%</h3>
+              <ul>
+                <li>Проект выполняется группами по 2 человека.</li>
+                <li>Основной продукт — мультимедийный e-learning-модуль.</li>
+                <li>Проект развивается по фазам в течение семестра.</li>
+              </ul>
+            </div>
+
+            <div class="info-card">
+              <h3>Экзамен — 100%</h3>
+              <ul>
+                <li>Часть I — 60%.</li>
+                <li>Минимальная оценка: 7,5 valores.</li>
+                <li>Часть II — 40%.</li>
+                <li>Часть II не нужна тем, кто проходит непрерывное оценивание.</li>
+              </ul>
+            </div>
+          </div>
+
+          <h3>Фазы проекта</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <span>28.03.2026</span>
+              <p><strong>Фаза 1:</strong> анализ и instructional planning.</p>
+            </div>
+            <div class="timeline-item">
+              <span>18.04.2026</span>
+              <p><strong>Фаза 2:</strong> производство мультимедийного контента.</p>
+            </div>
+            <div class="timeline-item">
+              <span>09.05.2026</span>
+              <p><strong>Фаза 3:</strong> интерактивность и UX.</p>
+            </div>
+            <div class="timeline-item">
+              <span>30.05.2026</span>
+              <p><strong>Фаза 4:</strong> технологическая интеграция и реализация.</p>
+            </div>
+            <div class="timeline-item">
+              <span>13.06.2026</span>
+              <p><strong>Фаза 5:</strong> итоговый научный отчет.</p>
+            </div>
+          </div>
+
+          <h3>Фаза 1 — что нужно сделать</h3>
+          <ul>
+            <li>Определить тему и целевую аудиторию.</li>
+            <li>Выявить потребности обучения.</li>
+            <li>Сформулировать 3–5 целей обучения.</li>
+            <li>Описать структуру модуля и последовательность контента.</li>
+            <li>Создать storyboard или начальный wireframe.</li>
+            <li>Сдать документ планирования на 2–3 страницы + storyboard.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="distance-learning" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>4. Основы дистанционного обучения</h2>
+
+          <p>
+            Дистанционное обучение — это обучение, при котором преподаватель и студент
+            физически разделены, а взаимодействие, поддержка, доступ к материалам и учебная
+            активность обеспечиваются технологически.
+          </p>
+
+          <h3>Юридическое понимание EaD</h3>
+          <p>
+            В португальском контексте дистанционный цикл обучения предполагает, что минимум
+            75% кредитов учебного плана преподаются в дистанционном формате. Взаимодействие
+            технологически опосредовано, учебный дизайн рассчитан на доступ без жесткой
+            привязки ко времени и месту, а педагогическая модель специально создается для
+            виртуальной среды.
+          </p>
+
+          <h3>Ключевые признаки дистанционного обучения</h3>
+          <ul>
+            <li>Планируемое обучение, которое обычно происходит не там, где находится преподаватель.</li>
+            <li>Использование специальных методов проектирования курса, коммуникации и инструктажа.</li>
+            <li>Высокая доля самостоятельной работы студента.</li>
+            <li>Поддержка со стороны образовательной организации.</li>
+            <li>Почти постоянное физическое разделение преподавателя и студента.</li>
+          </ul>
+
+          <h3>Другие названия и близкие понятия</h3>
+          <p>
+            В источнике упоминаются связанные термины: open learning, resource-based learning,
+            flexible learning, distributed learning, networked learning и online learning.
+            В Европе часто используется обобщающий термин ODL — Open and Distance Learning.
+          </p>
+
+          <h3>История e-learning</h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <span>XIX век</span>
+              <p>Курсы по переписке: учебные материалы распространялись по почте.</p>
+            </div>
+            <div class="timeline-item">
+              <span>1960-е</span>
+              <p>Появление Computer-Assisted Instruction — обучение с помощью компьютера.</p>
+            </div>
+            <div class="timeline-item">
+              <span>1990-е</span>
+              <p>Интернет сделал возможным web-based e-learning и глобальный доступ к материалам.</p>
+            </div>
+            <div class="timeline-item">
+              <span>XXI век</span>
+              <p>LMS, например Moodle, упростили управление курсами, материалами и оцениванием.</p>
+            </div>
+            <div class="timeline-item">
+              <span>Современный этап</span>
+              <p>MOOC-платформы расширили доступ к массовому онлайн-образованию.</p>
+            </div>
+          </div>
+
+          <h3>Remote teaching vs distance education</h3>
+          <p>
+            Презентация отдельно выделяет тему различия между emergency remote teaching и
+            полноценным дистанционным образованием. Важно понимать: временный перенос занятий
+            в онлайн не равен качественно спроектированной дистанционной образовательной системе.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>5. Практическая активность: обзор e-learning-контента</h2>
+          <p>
+            Студентам предлагается проанализировать приложение или учебный модуль по заданному
+            сценарию. Продолжительность активности — 20 минут.
+          </p>
+
+          <ol>
+            <li><strong>Контекст:</strong> название приложения или модуля, назначение, целевая аудитория.</li>
+            <li><strong>Педагогика:</strong> теория обучения, геймификация, синхронный/асинхронный/гибридный формат.</li>
+            <li><strong>Опыт студента:</strong> доступность и удобство использования.</li>
+            <li><strong>Instructional Design & UX:</strong> навигация, понятность, engagement-индикаторы.</li>
+            <li><strong>Технологии:</strong> Web 2.0, Web 3.0, мультимедиа.</li>
+            <li><strong>Технические функции:</strong> интеграция с другими инструментами.</li>
+            <li><strong>Итоговая оценка:</strong> что работает хорошо, что улучшить, можно ли использовать в рамках курса.</li>
+          </ol>
+
+          <h3>Правила коммуникации</h3>
+          <ul>
+            <li>Работы выполняются и отправляются через Moodle дисциплины.</li>
+            <li>Коммуникация по занятиям — через email преподавателя.</li>
+            <li>Тема письма обязательна в формате: <strong>UC | Ano + Licenciatura | Tema do contacto</strong>.</li>
+          </ul>
+
+          <h3>Что запомнить к экзамену</h3>
+          <div class="callout">
+            <p>
+              Нужно уверенно различать EaD, e-learning, b-learning, m-learning и t-learning;
+              понимать LMS/LCMS/CMS; знать ADDIE, SAM, UDL, WCAG, SCORM, xAPI, cmi5, LTI;
+              объяснять роль мультимедиа, UX, engagement и learning analytics.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 PDF Notes · TMEL TP01</p>
+      <a href="index.html">Вернуться на главную</a>
+    </div>
+  </footer>
+</body>
+</html>

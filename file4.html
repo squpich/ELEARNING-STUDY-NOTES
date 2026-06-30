@@ -1,0 +1,764 @@
+<!-- file4.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TMEL TP04 — MOOC и мультимедиа в e-learning</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="index.html" class="logo">PDF Notes</a>
+
+      <nav class="main-nav" aria-label="Навигация по странице">
+        <a href="#mooc">MOOC</a>
+        <a href="#multimedia">Мультимедиа</a>
+        <a href="#media-types">Виды медиа</a>
+        <a href="#choice">Выбор формата</a>
+        <a href="#principles">Принципы Mayer</a>
+        <a href="#project">Проект</a>
+      </nav>
+
+      <button class="theme-toggle" type="button" aria-label="Переключить тему">
+        <span class="theme-toggle__icon">☾</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section note-hero reveal">
+      <div class="container note-layout">
+        <p class="eyebrow">TMEL · TP04 · 18.04.2026</p>
+        <h1>MOOC и мультимедиа в e-learning</h1>
+        <p class="hero-text">
+          Подробный конспект по Massive Open Online Courses, роли мультимедиа,
+          видам образовательных медиа, выбору подходящего формата и принципам
+          мультимедийного обучения Richard E. Mayer.
+        </p>
+
+        <div class="note-meta-grid">
+          <div class="note-meta-card">
+            <span>Дисциплина</span>
+            <strong>Tecnologias Multimédia para E-Learning</strong>
+          </div>
+          <div class="note-meta-card">
+            <span>Темы</span>
+            <strong>MOOC · Multimédia · Mayer</strong>
+          </div>
+          <div class="note-meta-card">
+            <span>Дата</span>
+            <strong>18.04.2026</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>1. Что изучается в этом файле</h2>
+
+          <p>
+            Этот файл состоит из трех больших частей: <strong>MOOC</strong>,
+            <strong>роль мультимедиа в e-learning</strong> и <strong>принципы мультимедийного обучения</strong>.
+            Главная цель — понять, как онлайн-курс становится не просто набором файлов,
+            а полноценным образовательным опытом.
+          </p>
+
+          <div class="callout">
+            <strong>Главная мысль:</strong> мультимедиа в e-learning — это не украшение.
+            Текст, изображение, видео, аудио, анимация и интерактивность должны использоваться
+            только тогда, когда они помогают студенту понять, запомнить, применить или проверить знание.
+          </div>
+
+          <div class="topic-grid">
+            <div class="topic-card">
+              <h3>MOOC</h3>
+              <p>Массовые открытые онлайн-курсы, их структура, развитие, связь с REA/OER и доступностью образования.</p>
+            </div>
+
+            <div class="topic-card">
+              <h3>Мультимедиа</h3>
+              <p>Текст, инфографика, изображение, анимация, motion graphics, аудио, видео и интерактивность.</p>
+            </div>
+
+            <div class="topic-card">
+              <h3>Принципы Mayer</h3>
+              <p>Cognitive Load Theory, selection, organization, integration и 12 принципов мультимедийного обучения.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="mooc" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>2. MOOC — Massive Open Online Courses</h2>
+
+          <p>
+            MOOC означает <strong>Massive Open Online Courses</strong> — массовые открытые онлайн-курсы.
+            Это курсы, которые доступны через интернет и рассчитаны на большое количество студентов.
+          </p>
+
+          <div class="responsive-table">
+            <table class="study-table">
+              <thead>
+                <tr>
+                  <th>Компонент</th>
+                  <th>Значение</th>
+                  <th>Смысл для обучения</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Massive</strong></td>
+                  <td>Курс может одновременно проходить большое количество студентов.</td>
+                  <td>Структура курса должна масштабироваться без постоянной ручной поддержки каждого участника.</td>
+                </tr>
+                <tr>
+                  <td><strong>Open</strong></td>
+                  <td>Курс доступен любому человеку с нужной инфраструктурой, оборудованием и цифровой компетентностью.</td>
+                  <td>Доступность зависит не только от цены, но и от техники, интернета и digital literacy.</td>
+                </tr>
+                <tr>
+                  <td><strong>Online</strong></td>
+                  <td>Контент, материалы, активности, взаимодействие и оценивание происходят через цифровые сети.</td>
+                  <td>Курс должен быть спроектирован специально для online-среды.</td>
+                </tr>
+                <tr>
+                  <td><strong>Course</strong></td>
+                  <td>Это структурированный учебный опыт, созданный для развития знаний и навыков.</td>
+                  <td>MOOC — не просто папка с видео, а организованный маршрут обучения.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Ключевые характеристики MOOC</h3>
+          <ul>
+            <li>Обычно доступны в интернете без академических или иных предварительных требований.</li>
+            <li>Как правило, не дают академическую степень или полноценный официальный сертификат компетенций.</li>
+            <li>Первая аллюзия к MOOC относится к 2008 году.</li>
+            <li>Развивались вместе с расширением доступа к интернету.</li>
+            <li>Связаны с REA / OER — открытыми образовательными ресурсами.</li>
+            <li>Помогают демократизировать доступ к знаниям.</li>
+            <li>Снижают разрыв между более и менее привилегированными группами населения.</li>
+            <li>Поддерживают lifelong learning и ускоряют цифровую трансформацию.</li>
+            <li>Требуют учета социокультурного и религиозного разнообразия участников.</li>
+            <li>Должны обеспечивать accessibility и inclusion.</li>
+          </ul>
+
+          <div class="callout">
+            <strong>Запомнить:</strong> MOOC считается открытым не только потому, что его можно найти в интернете.
+            Он должен быть доступным, масштабируемым, структурированным и пригодным для самостоятельного прохождения.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>3. Историческая логика MOOC и открытого образования</h2>
+
+          <p>
+            В презентации показана схема развития открытого образования и MOOC:
+            от open source software, open content и MIT OpenCourseWare к connectivist MOOC,
+            Stanford MOOC, Udacity, Coursera, MIT edX и FutureLearn.
+          </p>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <span>2000–2007</span>
+              <p>Развитие open education, open source software, open content и MIT OpenCourseWare.</p>
+            </div>
+
+            <div class="timeline-item">
+              <span>2008</span>
+              <p>Появление connectivist MOOC — cMOOC, связанного с сетевой логикой обучения.</p>
+            </div>
+
+            <div class="timeline-item">
+              <span>2011</span>
+              <p>Stanford MOOC становится важной точкой перехода к массовым платформам.</p>
+            </div>
+
+            <div class="timeline-item">
+              <span>2012</span>
+              <p>Появляются и усиливаются Udacity, Coursera и MIT edX.</p>
+            </div>
+
+            <div class="timeline-item">
+              <span>2013</span>
+              <p>FutureLearn продолжает линию открытого массового онлайн-образования.</p>
+            </div>
+          </div>
+
+          <h3>cMOOC и xMOOC</h3>
+          <div class="two-column">
+            <div class="info-card">
+              <h3>cMOOC</h3>
+              <p>
+                Connectivist MOOC. Больше связан с коннективизмом, сетями, обменом знаниями,
+                автономией и созданием связей между участниками.
+              </p>
+            </div>
+
+            <div class="info-card">
+              <h3>xMOOC</h3>
+              <p>
+                Более платформенный формат: видеолекции, тесты, структурированные модули,
+                автоматизированное оценивание и массовая доставка контента.
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="multimedia" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>4. Роль мультимедиа в e-learning</h2>
+
+          <p>
+            В e-learning мультимедиа — это согласованное использование
+            <strong>слов, изображений, аудио, видео и интерактивных элементов</strong>
+            для продвижения обучения.
+          </p>
+
+          <div class="compact-list">
+            <p><strong>Мультимедиа помогает учиться лучше,</strong> когда информация подается через несколько взаимодополняющих каналов, а не только через изолированный текст.</p>
+            <p><strong>Мультимедиа делает абстрактное конкретным,</strong> потому что сложные темы становятся визуальными, наблюдаемыми и более вовлекающими.</p>
+            <p><strong>Мультимедиа — это педагогическое решение,</strong> а не просто визуальное оформление.</p>
+            <p><strong>Качество зависит не от количества media,</strong> а от того, насколько хорошо они соединены для поддержки понимания.</p>
+          </div>
+
+          <h3>Почему мультимедиа важно</h3>
+          <ul>
+            <li>Позволяет яснее представлять complex information.</li>
+            <li>Комбинирует verbal explanations и visual representations.</li>
+            <li>Может повышать motivation и engagement.</li>
+            <li>Улучшает retention, transfer of knowledge и conceptual understanding.</li>
+            <li>В онлайн-курсах частично заменяет физическое присутствие преподавателя.</li>
+            <li>Дает mediation, demonstration и orientation.</li>
+            <li>Поддерживает flexibility, personalization и lifelong learning.</li>
+          </ul>
+
+          <div class="callout">
+            <strong>Критерий качества:</strong> хороший мультимедийный ресурс не “красивый”, а понятный,
+            функциональный, связанный с целью обучения и не создающий лишнюю cognitive load.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="media-types" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>5. Виды мультимедиа в e-learning</h2>
+
+          <p>
+            В файле отдельно рассматриваются основные форматы: текст, инфографика,
+            статичное изображение, анимация, motion graphics, аудио и видео.
+            Каждый формат имеет свою педагогическую функцию.
+          </p>
+
+          <div class="topic-grid">
+            <div class="topic-card">
+              <h3>Текст</h3>
+              <p>Определяет понятия, направляет задания, структурирует информацию, сигнализирует и поддерживает навигацию.</p>
+            </div>
+
+            <div class="topic-card">
+              <h3>Инфографика</h3>
+              <p>Визуально организует данные, отношения и процессы в компактном и читаемом формате.</p>
+            </div>
+
+            <div class="topic-card">
+              <h3>Статичное изображение</h3>
+              <p>Делает абстрактные понятия более конкретными и помогает показать структуры, связи и этапы.</p>
+            </div>
+
+            <div class="topic-card">
+              <h3>Анимация</h3>
+              <p>Полезна для движения, трансформаций и временных последовательностей.</p>
+            </div>
+
+            <div class="topic-card">
+              <h3>Motion graphics</h3>
+              <p>Соединяет типографику, иконки, иллюстрации и движение для кратких объяснений.</p>
+            </div>
+
+            <div class="topic-card">
+              <h3>Аудио</h3>
+              <p>Дает устное объяснение, narration, orientation и sound feedback.</p>
+            </div>
+
+            <div class="topic-card">
+              <h3>Видео</h3>
+              <p>Комбинирует verbal explanation, visual demonstration и practical context.</p>
+            </div>
+
+            <div class="topic-card">
+              <h3>Интерактивность</h3>
+              <p>Позволяет студенту исследовать, тестировать, манипулировать и получать feedback.</p>
+            </div>
+
+            <div class="topic-card">
+              <h3>Главное правило</h3>
+              <p>Формат выбирается под учебную цель, а не под визуальную привлекательность.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>6. Текст, инфографика и статичное изображение</h2>
+
+          <h3>Текст</h3>
+          <ul>
+            <li>Остается центральным элементом e-learning.</li>
+            <li>Нужен для definitions, instructions, task orientation и information structure.</li>
+            <li>Должен быть clear, concise и segmented.</li>
+            <li>Не должен перегружать студента и повышать cognitive load.</li>
+            <li>Лучше работает для signaling, summary и navigation support.</li>
+            <li>Не должен без необходимости дублировать другие media.</li>
+          </ul>
+
+          <h3>Инфографика</h3>
+          <ul>
+            <li>Помогает синтезировать data, relations и processes.</li>
+            <li>Поддерживает active learning: студент интерпретирует, сравнивает и реорганизует информацию.</li>
+            <li>Эффективность зависит от visual clarity, hierarchy, simplicity и coherence between text and image.</li>
+            <li>Полезна для summaries, timelines, flowcharts и procedures.</li>
+            <li>Плохая инфографика может быть красивой, но cognitively confusing.</li>
+          </ul>
+
+          <h3>Статичное изображение</h3>
+          <ul>
+            <li>Делает abstract concepts более concrete и observable.</li>
+            <li>Полезно для diagrams, schemes, illustrations и screenshots.</li>
+            <li>Помогает показать structures, relations и stable spatial relationships.</li>
+            <li>По принципу мультимедиа, студенты лучше учатся с words + images, чем только со words.</li>
+            <li>Изображение должно быть simple, functional и directly connected to learning objective.</li>
+          </ul>
+
+          <div class="callout">
+            <strong>Практическая формула:</strong> текст объясняет, изображение показывает, инфографика связывает.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>7. Анимация, motion graphics, аудио и видео</h2>
+
+          <h3>Анимация</h3>
+          <ul>
+            <li>Полезна, когда содержание включает movement, transformation или temporal sequences.</li>
+            <li>Подходит для biological, mechanical или computational processes.</li>
+            <li>Не является автоматически лучше статичных изображений.</li>
+            <li>Должна поддерживать именно то, что нужно выучить.</li>
+            <li>Интерактивная анимация ценна, если студент может explore, test, manipulate или receive feedback.</li>
+            <li>Нужно использовать сдержанно, чтобы не перегрузить cognitive load.</li>
+          </ul>
+
+          <h3>Motion graphics</h3>
+          <ul>
+            <li>Комбинируют typography, icons, illustration и movement.</li>
+            <li>Часто используются в explanatory videos и microlearning.</li>
+            <li>Полезны для introduction of concepts, topic summaries и cause-effect relations.</li>
+            <li>Помогают orient student attention через signaling и segmentation.</li>
+            <li>Excessive movement, fast rhythm и excess visual elements ухудшают обучение.</li>
+          </ul>
+
+          <h3>Аудио</h3>
+          <ul>
+            <li>Поддерживает oral explanation, orientation, narration и sound feedback.</li>
+            <li>По modality principle студент часто лучше учится, когда изображение сопровождается устной речью, а не избыточным текстом на экране.</li>
+            <li>Особенно полезно, когда студент уже смотрит на graphs, animations или complex interfaces.</li>
+            <li>Помогает reduce visual overload.</li>
+          </ul>
+
+          <h3>Видео</h3>
+          <ul>
+            <li>Один из самых частых форматов e-learning.</li>
+            <li>Комбинирует verbal explanation, visual demonstration и practical contextualization.</li>
+            <li>Короткие видео обычно дают больше engagement, чем длинные и слишком экспозиционные.</li>
+            <li>Подходит для demonstrations, tutorials, procedural explanations и ситуаций “смотри + слушай”.</li>
+            <li>Должно быть segmented, focused и visually clean.</li>
+            <li>Видео лучше работает, когда связано с learning activities, а не просто пассивно просматривается.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="choice" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>8. Как выбрать правильный мультимедийный формат</h2>
+
+          <p>
+            Средство мультимедиа выбирается по типу обучения: объяснить понятие,
+            показать процесс, потренировать навык или поддержать рефлексию.
+          </p>
+
+          <div class="responsive-table">
+            <table class="study-table">
+              <thead>
+                <tr>
+                  <th>Учебная задача</th>
+                  <th>Лучший формат</th>
+                  <th>Почему</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Определить понятие</td>
+                  <td>Текст + простое изображение</td>
+                  <td>Текст дает точность, изображение делает абстракцию конкретной.</td>
+                </tr>
+                <tr>
+                  <td>Показать структуру</td>
+                  <td>Диаграмма, схема, статичное изображение</td>
+                  <td>Статичные связи удобнее рассматривать без движения.</td>
+                </tr>
+                <tr>
+                  <td>Показать процесс во времени</td>
+                  <td>Видео или анимация</td>
+                  <td>Движение помогает увидеть последовательность и изменение.</td>
+                </tr>
+                <tr>
+                  <td>Сделать краткое резюме</td>
+                  <td>Инфографика или motion graphics</td>
+                  <td>Эти форматы компактно показывают связи, этапы и причинность.</td>
+                </tr>
+                <tr>
+                  <td>Разгрузить визуальный канал</td>
+                  <td>Аудио / narration</td>
+                  <td>Голос помогает, когда студент уже смотрит на визуальный материал.</td>
+                </tr>
+                <tr>
+                  <td>Дать практику</td>
+                  <td>Интерактивность</td>
+                  <td>Студент может действовать, проверять решения и получать feedback.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Что учитывать при выборе</h3>
+          <div class="compact-list">
+            <p><strong>Objectives:</strong> какой learning outcome должен быть достигнут.</p>
+            <p><strong>Student profile:</strong> уровень, возраст, digital skills, опыт.</p>
+            <p><strong>Accessibility:</strong> subtitles, alt text, contrast, pace control.</p>
+            <p><strong>Technology:</strong> bandwidth, devices, LMS compatibility, mobile performance.</p>
+            <p><strong>Production effort:</strong> сложность производства должна быть оправдана педагогической пользой.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>9. Главные вызовы мультимедиа</h2>
+
+          <div class="compact-list">
+            <p><strong>Decorative multimedia:</strong> медиа используется как украшение и повышает extraneous cognitive load.</p>
+            <p><strong>Production cost:</strong> качественные материалы требуют времени, технических навыков, планирования и revision.</p>
+            <p><strong>Accessibility:</strong> нужны captions, alternative descriptions, pace control и compatibility.</p>
+            <p><strong>Technology limits:</strong> bandwidth, file formats, LMS compatibility и mobile performance.</p>
+            <p><strong>Wrong media choice:</strong> неправильный формат делает курс визуально привлекательным, но педагогически слабым.</p>
+          </div>
+
+          <div class="callout">
+            <strong>Проверочный вопрос:</strong> если убрать этот медиаэлемент, студент станет понимать хуже?
+            Если нет — элемент, скорее всего, декоративный.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="principles" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>10. Принципы мультимедийного обучения Mayer</h2>
+
+          <p>
+            Принципы Richard E. Mayer основаны на идее, что студенты учатся лучше,
+            когда информация представлена через <strong>слова и изображения вместе</strong>.
+            Эти принципы связаны с <strong>Cognitive Load Theory</strong>: рабочая память ограничена,
+            поэтому дизайн должен снижать лишнюю когнитивную нагрузку.
+          </p>
+
+          <h3>Три когнитивных процесса</h3>
+          <div class="topic-grid">
+            <div class="topic-card">
+              <h3>Selection</h3>
+              <p>Студент выбирает важную информацию из слов и изображений.</p>
+            </div>
+
+            <div class="topic-card">
+              <h3>Organization</h3>
+              <p>Студент организует выбранную информацию в понятные mental models.</p>
+            </div>
+
+            <div class="topic-card">
+              <h3>Integration</h3>
+              <p>Студент связывает новую информацию с уже существующими знаниями.</p>
+            </div>
+          </div>
+
+          <h3>12 принципов мультимедийного обучения</h3>
+          <div class="responsive-table">
+            <table class="study-table">
+              <thead>
+                <tr>
+                  <th>Принцип</th>
+                  <th>Смысл</th>
+                  <th>Практическое применение</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Coherence</strong></td>
+                  <td>Убрать нерелевантную информацию.</td>
+                  <td>Не добавлять музыку, картинки и детали, которые не помогают цели.</td>
+                </tr>
+                <tr>
+                  <td><strong>Signaling</strong></td>
+                  <td>Выделить важные элементы.</td>
+                  <td>Использовать заголовки, стрелки, подсветку, шаги и визуальную иерархию.</td>
+                </tr>
+                <tr>
+                  <td><strong>Redundancy</strong></td>
+                  <td>Не дублировать одно и то же через текст и narration.</td>
+                  <td>Не читать дословно большой текст на экране.</td>
+                </tr>
+                <tr>
+                  <td><strong>Spatial contiguity</strong></td>
+                  <td>Связанный текст и изображение должны быть рядом.</td>
+                  <td>Подпись ставить возле элемента схемы.</td>
+                </tr>
+                <tr>
+                  <td><strong>Temporal contiguity</strong></td>
+                  <td>Связанные слова и изображения должны появляться одновременно.</td>
+                  <td>Объяснять действие в момент его демонстрации.</td>
+                </tr>
+                <tr>
+                  <td><strong>Segmenting</strong></td>
+                  <td>Делить содержание на небольшие части.</td>
+                  <td>Короткие экраны, короткие видео, пошаговые блоки.</td>
+                </tr>
+                <tr>
+                  <td><strong>Pre-training</strong></td>
+                  <td>До сложной темы дать ключевые понятия.</td>
+                  <td>Перед видео объяснить термины и элементы интерфейса.</td>
+                </tr>
+                <tr>
+                  <td><strong>Modality</strong></td>
+                  <td>Изображения часто лучше сочетать с устной речью, а не с большим текстом.</td>
+                  <td>Схема + голосовое объяснение вместо схемы + длинного текста.</td>
+                </tr>
+                <tr>
+                  <td><strong>Multimedia</strong></td>
+                  <td>Слова + изображения лучше, чем только слова.</td>
+                  <td>Добавлять схемы и визуальные примеры к теории.</td>
+                </tr>
+                <tr>
+                  <td><strong>Personalization</strong></td>
+                  <td>Разговорный стиль часто работает лучше формального.</td>
+                  <td>Писать ближе к студенту, без чрезмерной академичности.</td>
+                </tr>
+                <tr>
+                  <td><strong>Voice</strong></td>
+                  <td>Естественный человеческий голос лучше синтетического.</td>
+                  <td>Для narration использовать понятный и живой голос.</td>
+                </tr>
+                <tr>
+                  <td><strong>Image</strong></td>
+                  <td>Наличие говорящего на экране не всегда улучшает обучение.</td>
+                  <td>Не добавлять лицо лектора, если оно не помогает понять материал.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="callout">
+            <strong>Суть Mayer:</strong> хороший дизайн помогает студенту выбрать главное,
+            организовать материал и связать его со своими знаниями.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="project" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>11. Проект: фаза 2 и фаза 3</h2>
+
+          <h3>Фаза 2 — Produção de conteúdos multimédia</h3>
+          <p>
+            В файле указана фаза 2 проекта: производство оригинальных образовательных
+            мультимедийных материалов для e-learning-модуля.
+          </p>
+
+          <div class="callout">
+            <strong>Период:</strong> недели 5–7.<br>
+            <strong>Сдача:</strong> произведенные мультимедийные материалы + предварительная версия модуля.
+          </div>
+
+          <div class="topic-grid">
+            <div class="topic-card">
+              <h3>Видео</h3>
+              <p>Образовательный видеоролик 2–5 минут.</p>
+            </div>
+
+            <div class="topic-card">
+              <h3>Визуальный элемент</h3>
+              <p>Инфографика, диаграмма или эквивалентный educational visual element.</p>
+            </div>
+
+            <div class="topic-card">
+              <h3>Аудио</h3>
+              <p>Narration или объяснение.</p>
+            </div>
+
+            <div class="topic-card">
+              <h3>Принципы</h3>
+              <p>Нужно применить multimedia learning principles.</p>
+            </div>
+
+            <div class="topic-card">
+              <h3>Версия модуля</h3>
+              <p>Нужна preliminary version, а не только отдельные медиафайлы.</p>
+            </div>
+
+            <div class="topic-card">
+              <h3>Связность</h3>
+              <p>Все материалы должны быть связаны с objectives, activities и assessment.</p>
+            </div>
+          </div>
+
+          <h3>Фаза 3 — Interatividade e experiência do utilizador</h3>
+          <p>
+            Следующий этап — развитие интерактивности и пользовательского опыта.
+          </p>
+
+          <div class="callout">
+            <strong>Период:</strong> недели 8–10.<br>
+            <strong>Сдача:</strong> функциональный прототип модуля.
+          </div>
+
+          <ul>
+            <li>Разработать interactive elements.</li>
+            <li>Применить usability и accessibility principles.</li>
+            <li>Создать минимум один interactive quiz.</li>
+            <li>Добавить automatic feedback.</li>
+            <li>Применить базовые UX-principles.</li>
+            <li>Проверить contrast, subtitles и alt text.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>12. Частые ошибки</h2>
+
+          <div class="compact-list">
+            <p><strong>Ошибка 1:</strong> считать MOOC просто набором бесплатных видео.</p>
+            <p><strong>Ошибка 2:</strong> добавлять мультимедиа ради красоты, а не ради learning objective.</p>
+            <p><strong>Ошибка 3:</strong> перегружать экран текстом, изображениями, анимацией и звуком одновременно.</p>
+            <p><strong>Ошибка 4:</strong> использовать анимацию там, где достаточно статичной схемы.</p>
+            <p><strong>Ошибка 5:</strong> делать длинное видео без сегментации и активности после просмотра.</p>
+            <p><strong>Ошибка 6:</strong> дублировать narration большим текстом на экране.</p>
+            <p><strong>Ошибка 7:</strong> забывать accessibility: subtitles, alt text, contrast и контроль темпа.</p>
+            <p><strong>Ошибка 8:</strong> выбирать инструмент раньше, чем определены цели обучения.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>13. Что важно запомнить к экзамену</h2>
+
+          <h3>Мини-конспект</h3>
+          <div class="compact-list">
+            <p><strong>MOOC:</strong> massive, open, online, course — масштабируемый открытый онлайн-курс.</p>
+            <p><strong>REA / OER:</strong> открытые образовательные ресурсы, связанные с доступом к качественному образованию.</p>
+            <p><strong>Мультимедиа:</strong> слова, изображения, аудио, видео и интерактивность, объединенные для обучения.</p>
+            <p><strong>Качество:</strong> зависит не от количества media, а от их педагогической связности.</p>
+            <p><strong>Текст:</strong> определения, инструкции, структура, навигация.</p>
+            <p><strong>Инфографика:</strong> резюме, связи, процессы, timelines, flowcharts.</p>
+            <p><strong>Изображение:</strong> структуры, связи, stable spatial relations.</p>
+            <p><strong>Анимация / видео:</strong> движение, процессы, демонстрации, temporal sequences.</p>
+            <p><strong>Аудио:</strong> narration, explanation, feedback, снижение visual overload.</p>
+            <p><strong>Mayer:</strong> selection, organization, integration + 12 принципов multimedia learning.</p>
+          </div>
+
+          <h3>Вопросы для самопроверки</h3>
+          <div class="compact-list">
+            <p><strong>1. Что означает MOOC?</strong><br>
+              Massive Open Online Courses — массовые открытые онлайн-курсы.</p>
+
+            <p><strong>2. Почему MOOC не является просто набором видео?</strong><br>
+              Потому что это структурированный курс с материалами, активностями, взаимодействием и оцениванием.</p>
+
+            <p><strong>3. Что делает мультимедиа педагогически эффективным?</strong><br>
+              Связь с learning objective, снижение cognitive load и поддержка понимания.</p>
+
+            <p><strong>4. Когда лучше использовать инфографику?</strong><br>
+              Для резюме, процессов, сравнений, timelines, flowcharts и compact visualization.</p>
+
+            <p><strong>5. Когда лучше использовать анимацию?</strong><br>
+              Когда нужно показать движение, трансформацию или временную последовательность.</p>
+
+            <p><strong>6. Почему видео должно быть коротким и сегментированным?</strong><br>
+              Так выше engagement и ниже cognitive overload.</p>
+
+            <p><strong>7. Что такое redundancy principle?</strong><br>
+              Избегать ненужного дублирования между текстом и narration.</p>
+
+            <p><strong>8. Что такое signaling principle?</strong><br>
+              Выделять важные элементы, чтобы направлять внимание студента.</p>
+
+            <p><strong>9. Что требуется в фазе 2 проекта?</strong><br>
+              Видео 2–5 минут, визуальный элемент, аудио, применение multimedia learning principles и предварительная версия модуля.</p>
+
+            <p><strong>10. Что требуется в фазе 3 проекта?</strong><br>
+              Интерактивные элементы, quiz, automatic feedback, UX и accessibility.</p>
+          </div>
+
+          <div class="callout">
+            <strong>Финальный вывод:</strong> мультимедиа в e-learning должно помогать студенту
+            выбрать главное, понять структуру, удержать внимание, применить знание и получить feedback.
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 PDF Notes · TMEL TP04</p>
+      <a href="index.html">Вернуться на главную</a>
+    </div>
+  </footer>
+</body>
+</html>
