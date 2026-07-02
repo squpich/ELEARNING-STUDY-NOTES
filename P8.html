@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TMEL TP09 — Платформы и технологии e-learning</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="index.html" class="logo">PDF Notes</a>
+      <nav class="main-nav" aria-label="Навигация по странице">
+        <a href="#systems">LMS/CMS/LCMS</a>
+        <a href="#standards">Standards</a>
+        <a href="#management">Scrum/Kanban</a>
+        <a href="#tools">Web tools</a>
+        <a href="#exam">Экзамен</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Переключить тему">
+        <span class="theme-toggle__icon">☾</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section note-hero reveal">
+      <div class="container note-layout">
+        <p class="eyebrow">TMEL · TP09 · Aula n.º 9</p>
+        <h1>Платформы и технологии e-learning</h1>
+        <p class="hero-text">
+          Короткий экзаменационный конспект: LMS, CMS, LCMS, SCORM, xAPI, cmi5, LTI,
+          Scrum, Kanban, Web 2.0, Web 3.0, mobile apps и выбор технологии под учебную цель.
+        </p>
+      </div>
+    </section>
+
+    <section id="systems" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>1. LMS, CMS и LCMS — не путать</h2>
+
+          <p>
+            Главная тема файла — технологическая архитектура e-learning. Важно различать три типа систем:
+            LMS управляет обучением, CMS управляет веб-контентом, LCMS помогает создавать и переиспользовать учебный контент.
+          </p>
+
+          <div class="responsive-table">
+            <table class="study-table">
+              <thead>
+                <tr>
+                  <th>Система</th>
+                  <th>Что это</th>
+                  <th>Главные функции</th>
+                  <th>Примеры</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>LMS</strong></td>
+                  <td>Learning Management System — система управления обучением.</td>
+                  <td>Курсы, студенты, задания, оценки, прогресс, коммуникация, аналитика.</td>
+                  <td>Moodle, Canvas, Google Classroom, Blackboard, Brightspace.</td>
+                </tr>
+                <tr>
+                  <td><strong>CMS</strong></td>
+                  <td>Content Management System — система управления веб-контентом.</td>
+                  <td>Страницы сайта, публикации, медиа, меню, пользователи, плагины.</td>
+                  <td>WordPress, Drupal, Joomla, Ghost, Webflow.</td>
+                </tr>
+                <tr>
+                  <td><strong>LCMS</strong></td>
+                  <td>Learning Content Management System — система управления учебным контентом.</td>
+                  <td>Создание интерактивных модулей, учебных объектов, тестов, экспорт SCORM/xAPI.</td>
+                  <td>Articulate Rise, Storyline, Captivate, Xyleme.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="callout">
+            <strong>Формула для экзамена:</strong> LMS = управляет обучением; CMS = управляет сайтом;
+            LCMS = создает и переиспользует учебный контент.
+          </div>
+
+          <h3>Что важно помнить</h3>
+          <div class="compact-list">
+            <p><strong>LMS</strong> нужна, если надо отслеживать студентов, оценки, задания, прогресс и коммуникацию.</p>
+            <p><strong>CMS</strong> подходит для образовательного сайта, блога, портала или страницы с материалами, но сама по себе не является полноценной системой оценки.</p>
+            <p><strong>LCMS</strong> полезна для профессиональной сборки интерактивных e-learning-модулей и экспорта в стандартах совместимости.</p>
+            <p><strong>Технология не заменяет педагогику:</strong> платформа должна обслуживать learning objectives, UX, доступность и оценивание.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="standards" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>2. Standards: SCORM, xAPI, cmi5 и LTI</h2>
+
+          <p>
+            Стандарты нужны для совместимости: чтобы e-learning-модуль можно было запускать в разных системах,
+            отслеживать действия студента, передавать результаты и подключать внешние инструменты.
+          </p>
+
+          <div class="responsive-table">
+            <table class="study-table">
+              <thead>
+                <tr>
+                  <th>Стандарт</th>
+                  <th>Смысл</th>
+                  <th>Главное применение</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>SCORM</strong></td>
+                  <td>Классический стандарт упаковки e-learning-контента для LMS.</td>
+                  <td>Запуск модуля в LMS + tracking: completion, score, progress.</td>
+                </tr>
+                <tr>
+                  <td><strong>xAPI</strong></td>
+                  <td>Experience API фиксирует учебные действия как statements.</td>
+                  <td>Отслеживание learning experiences не только внутри LMS, но и в apps, websites, simulations.</td>
+                </tr>
+                <tr>
+                  <td><strong>cmi5</strong></td>
+                  <td>Профиль, который соединяет xAPI с логикой LMS.</td>
+                  <td>Более современная связь между гибким tracking и LMS-запуском.</td>
+                </tr>
+                <tr>
+                  <td><strong>LTI</strong></td>
+                  <td>Learning Tools Interoperability.</td>
+                  <td>Подключение внешних учебных инструментов к LMS без ручного переноса данных.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="callout">
+            <strong>Самое вероятное в тесте:</strong> SCORM и xAPI — это стандарты interoperability,
+            которые позволяют отслеживать и передавать данные об обучении.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="management" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>3. Scrum и Kanban</h2>
+
+          <p>
+            В e-learning-проекте нужно управлять контентом, дизайном, видео, интерактивностью,
+            доступностью, тестированием, интеграцией и документацией. Для этого используются методы управления проектами.
+          </p>
+
+          <div class="two-column">
+            <div class="info-card">
+              <h3>Scrum</h3>
+              <ul>
+                <li>Agile framework для итеративной разработки.</li>
+                <li>Работа делится на sprints.</li>
+                <li>Есть backlog, sprint planning, review и retrospective.</li>
+                <li>Подходит для командной работы и проектов с изменяющимися требованиями.</li>
+              </ul>
+            </div>
+
+            <div class="info-card">
+              <h3>Kanban</h3>
+              <ul>
+                <li>Visual management system.</li>
+                <li>Доска задач: To Do, In Progress, Review, Done.</li>
+                <li>Показывает workflow и статус работы.</li>
+                <li>Хорошо подходит для учебного проекта, потому что простой и наглядный.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="callout">
+            <strong>Формула:</strong> Scrum = работа спринтами; Kanban = визуальная доска потока задач.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="tools" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>4. Web 2.0, Web 3.0, mobile apps и интерактивность</h2>
+
+          <p>
+            Эти инструменты расширяют e-learning за пределы обычной LMS. Они нужны для совместной работы,
+            коммуникации, персонализации, мобильной практики и активного обучения.
+          </p>
+
+          <div class="responsive-table">
+            <table class="study-table">
+              <thead>
+                <tr>
+                  <th>Группа</th>
+                  <th>Смысл</th>
+                  <th>Примеры</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Web 2.0</strong></td>
+                  <td>Совместное создание, обсуждение и публикация контента.</td>
+                  <td>Wiki, Padlet, Miro, Flipgrid, Notion.</td>
+                </tr>
+                <tr>
+                  <td><strong>Communication tools</strong></td>
+                  <td>Коммуникация и координация группы.</td>
+                  <td>Discord, Microsoft Teams, Slack.</td>
+                </tr>
+                <tr>
+                  <td><strong>Web 3.0</strong></td>
+                  <td>Семантические технологии, AI, персонализация и predictive analytics.</td>
+                  <td>Educational chatbots, virtual tutors, predictive analytics.</td>
+                </tr>
+                <tr>
+                  <td><strong>Mobile apps</strong></td>
+                  <td>Обучение через смартфоны: практика, повторение, microlearning.</td>
+                  <td>Kahoot!, Duolingo, Codecademy Go, Elevate.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Интерактивность</h3>
+          <div class="compact-list">
+            <p><strong>Quiz</strong> проверяет понимание и дает automatic feedback.</p>
+            <p><strong>Simulation</strong> позволяет безопасно исследовать ситуацию или процесс.</p>
+            <p><strong>Drag & drop</strong> помогает классифицировать, сопоставлять или упорядочивать элементы.</p>
+            <p><strong>Scenario-based learning</strong> заставляет студента принимать решения и видеть последствия.</p>
+            <p><strong>Feedback</strong> должен объяснять ошибку, а не просто писать “правильно/неправильно”.</p>
+          </div>
+
+          <div class="callout">
+            <strong>Правило:</strong> интерактивность должна быть связана с learning objectives.
+            Если клик не помогает учиться, это просто decoration.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>5. Как выбрать технологию</h2>
+
+          <p>
+            Технологию выбирают не по модности, а по учебной задаче, аудитории, UX, доступности,
+            tracking и необходимости интеграции.
+          </p>
+
+          <div class="responsive-table">
+            <table class="study-table">
+              <thead>
+                <tr>
+                  <th>Задача</th>
+                  <th>Что выбрать</th>
+                  <th>Почему</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Управлять студентами, заданиями, оценками и прогрессом</td>
+                  <td>LMS</td>
+                  <td>Есть roles, gradebook, tracking, communication и analytics.</td>
+                </tr>
+                <tr>
+                  <td>Создать публичный образовательный сайт</td>
+                  <td>CMS или custom website</td>
+                  <td>Удобно публиковать страницы, медиа, новости и навигацию.</td>
+                </tr>
+                <tr>
+                  <td>Собрать интерактивный учебный модуль</td>
+                  <td>LCMS / authoring tool</td>
+                  <td>Есть templates, quizzes, interactions, SCORM/xAPI export.</td>
+                </tr>
+                <tr>
+                  <td>Интегрировать модуль в LMS и отслеживать результат</td>
+                  <td>SCORM / xAPI / cmi5 / LTI</td>
+                  <td>Нужны interoperability и tracking.</td>
+                </tr>
+                <tr>
+                  <td>Организовать разработку проекта</td>
+                  <td>Kanban / Scrum</td>
+                  <td>Помогает отслеживать задачи, версии, review и progress.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="exam" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>6. Что точно запомнить к тесту</h2>
+
+          <div class="compact-list">
+            <p><strong>LMS:</strong> система управления обучением: курсы, студенты, задания, оценки, коммуникация, прогресс.</p>
+            <p><strong>CMS:</strong> система управления веб-контентом: страницы, публикации, медиа, сайт.</p>
+            <p><strong>LCMS:</strong> система создания и переиспользования учебного контента и интерактивных модулей.</p>
+            <p><strong>SCORM/xAPI:</strong> стандарты совместимости и tracking учебных данных.</p>
+            <p><strong>Kanban:</strong> визуальное управление workflow через доску задач.</p>
+            <p><strong>Scrum:</strong> agile-разработка через sprints, review и continuous improvement.</p>
+            <p><strong>Web 2.0:</strong> collaborative tools: wiki, Padlet, Miro, Notion.</p>
+            <p><strong>Web 3.0:</strong> AI, semantic technologies, personalization, predictive analytics, decentralization.</p>
+            <p><strong>Mobile apps:</strong> подходят для microlearning, практики, повторения и быстрых quizzes.</p>
+            <p><strong>Главный вывод:</strong> технология должна поддерживать learning objectives, UX, accessibility, assessment и analytics.</p>
+          </div>
+
+          <h3>Типовые вопросы</h3>
+          <div class="compact-list">
+            <p><strong>Для чего нужен WordPress?</strong><br>Для создания и управления контентом на websites. Это CMS.</p>
+            <p><strong>Что характеризует Articulate Rise 360?</strong><br>Это LCMS / authoring tool для создания e-learning content.</p>
+            <p><strong>Что такое SCORM и xAPI?</strong><br>Стандарты interoperability, которые помогают отслеживать и передавать learning data.</p>
+            <p><strong>Что делает Kanban?</strong><br>Визуально управляет потоком задач и оптимизирует процессы.</p>
+            <p><strong>Что включает Web 3.0?</strong><br>Семантические технологии, AI, персонализацию и децентрализацию данных.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 PDF Notes · TMEL TP09</p>
+      <a href="index.html">Вернуться на главную</a>
+    </div>
+  </footer>
+</body>
+</html>
