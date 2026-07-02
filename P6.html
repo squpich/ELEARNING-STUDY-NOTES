@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TMEL TP06 — кратко к экзамену</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="index.html" class="logo">PDF Notes</a>
+      <nav class="main-nav" aria-label="Навигация по странице">
+        <a href="#design">Design</a>
+        <a href="#merrill">Merrill</a>
+        <a href="#models">ADDIE / SAM</a>
+        <a href="#exam">Экзамен</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Переключить тему">
+        <span class="theme-toggle__icon">☾</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section note-hero reveal">
+      <div class="container note-layout">
+        <p class="eyebrow">TMEL · TP06 · краткий конспект</p>
+        <h1>Instructional Design: Merrill, ADDIE и SAM</h1>
+        <p class="hero-text">
+          Сжатая версия для экзамена: только понятия, различия моделей и то, что реально могут спросить в тесте.
+        </p>
+      </div>
+    </section>
+
+    <section id="design" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>1. Instructional Design — что это</h2>
+
+          <div class="callout">
+            <strong>Instructional Design</strong> — это системное проектирование обучения: сначала определяются цели, аудитория и учебная проблема, потом подбираются материалы, активности, мультимедиа, обратная связь и оценивание.
+          </div>
+
+          <div class="compact-list">
+            <p><strong>Главная идея:</strong> курс не должен быть набором страниц, видео и тестов. Все элементы должны вести к конкретной учебной цели.</p>
+            <p><strong>Что учитывается:</strong> потребности студентов, уровень знаний, контекст обучения, формат курса, доступность, активности и способы проверки результата.</p>
+            <p><strong>Зачем нужно:</strong> чтобы студент автономно понимал, что изучать, что делать, как проверять себя и как применять знания.</p>
+            <p><strong>Типичная ошибка:</strong> сначала делать красивую страницу или видео, а уже потом думать, чему это должно научить.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="merrill" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>2. Merrill — 5 принципов обучения</h2>
+
+          <p>
+            Merrill важен как простая логика хорошего учебного модуля: обучение строится не вокруг теории самой по себе, а вокруг решения реальной проблемы и применения знания.
+          </p>
+
+          <div class="topic-grid">
+            <div class="topic-card">
+              <h3>1. Problem</h3>
+              <p>Обучение должно быть связано с реальной задачей или проблемой.</p>
+            </div>
+            <div class="topic-card">
+              <h3>2. Activation</h3>
+              <p>Перед новой темой нужно активировать предыдущие знания студента.</p>
+            </div>
+            <div class="topic-card">
+              <h3>3. Demonstration</h3>
+              <p>Новое знание нужно показать на примере, модели, видео, схеме или кейсе.</p>
+            </div>
+            <div class="topic-card">
+              <h3>4. Application</h3>
+              <p>Студент должен сам применить знание: ответить, решить, выбрать, выполнить действие.</p>
+            </div>
+            <div class="topic-card">
+              <h3>5. Integration</h3>
+              <p>Новое знание должно перейти в практический опыт студента через перенос, рефлексию или обсуждение.</p>
+            </div>
+          </div>
+
+          <div class="callout">
+            <strong>Формула для запоминания:</strong> проблема → прошлые знания → демонстрация → применение → интеграция.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="models" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>3. ADDIE и SAM — две модели разработки курса</h2>
+
+          <h3>ADDIE</h3>
+          <div class="compact-list">
+            <p><strong>ADDIE</strong> — классическая линейная модель instructional design.</p>
+            <p><strong>A — Analysis:</strong> анализ проблемы, аудитории, потребностей, контекста и ограничений.</p>
+            <p><strong>D — Design:</strong> планирование целей, структуры, storyboard, активностей, мультимедиа и оценивания.</p>
+            <p><strong>D — Development:</strong> создание материалов: текстов, видео, аудио, схем, заданий, quiz, интерактивных элементов.</p>
+            <p><strong>I — Implementation:</strong> запуск курса или модуля на сайте, LMS или другой платформе.</p>
+            <p><strong>E — Evaluation:</strong> оценка качества, результатов обучения, usability, feedback и эффективности.</p>
+          </div>
+
+          <h3>SAM</h3>
+          <div class="compact-list">
+            <p><strong>SAM</strong> — Successive Approximation Model, гибкая iterative/agile модель.</p>
+            <p><strong>Главная идея:</strong> быстро создать прототип, протестировать, получить feedback и улучшать через итерации.</p>
+            <p><strong>SAM1:</strong> подходит для небольших и быстрых проектов.</p>
+            <p><strong>SAM2:</strong> подходит для более крупных и сложных проектов.</p>
+            <p><strong>Ключевые слова:</strong> rapid prototyping, iterations, review, feedback, continuous improvement.</p>
+          </div>
+
+          <div class="responsive-table">
+            <table class="study-table">
+              <thead>
+                <tr>
+                  <th>Критерий</th>
+                  <th>ADDIE</th>
+                  <th>SAM</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Тип</strong></td>
+                  <td>Линейная и структурированная модель.</td>
+                  <td>Итеративная и гибкая модель.</td>
+                </tr>
+                <tr>
+                  <td><strong>Подход</strong></td>
+                  <td>Сначала глубокое планирование, потом разработка.</td>
+                  <td>Быстрый прототип, тестирование и улучшение.</td>
+                </tr>
+                <tr>
+                  <td><strong>Лучше подходит</strong></td>
+                  <td>Для стабильных проектов с понятными требованиями.</td>
+                  <td>Для проектов с неопределенностью, изменениями и потребностью в feedback.</td>
+                </tr>
+                <tr>
+                  <td><strong>Риск</strong></td>
+                  <td>Проблемы могут обнаружиться поздно.</td>
+                  <td>Без структуры итерации могут стать хаосом.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="exam" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>4. Что точно запомнить к тесту</h2>
+
+          <div class="compact-list">
+            <p><strong>Instructional Design:</strong> системное проектирование обучения, где цели, контент, активности и оценивание связаны между собой.</p>
+            <p><strong>Merrill:</strong> problem, activation, demonstration, application, integration.</p>
+            <p><strong>ADDIE:</strong> Analysis, Design, Development, Implementation, Evaluation.</p>
+            <p><strong>ADDIE — это:</strong> линейная, структурированная, классическая модель.</p>
+            <p><strong>SAM — это:</strong> гибкая модель с быстрым прототипированием, итерациями и feedback.</p>
+            <p><strong>Главное отличие:</strong> ADDIE сначала планирует, SAM быстрее тестирует и улучшает.</p>
+            <p><strong>Evaluation:</strong> это не только финальный тест, а проверка качества курса, результатов и эффективности.</p>
+            <p><strong>Storyboard:</strong> план экранов модуля: что показывается, что делает студент, где feedback и где оценивание.</p>
+            <p><strong>Хороший e-learning:</strong> цели → материалы → активность студента → feedback → проверка результата.</p>
+          </div>
+
+          <h3>Мини-вопросы как в тесте</h3>
+          <div class="compact-list">
+            <p><strong>Что такое ADDIE?</strong><br>Модель instructional design из пяти этапов: Analysis, Design, Development, Implementation, Evaluation.</p>
+            <p><strong>Что такое SAM?</strong><br>Итеративная модель разработки через прототипы, feedback и улучшения.</p>
+            <p><strong>Какая модель более гибкая?</strong><br>SAM.</p>
+            <p><strong>Какая модель более линейная?</strong><br>ADDIE.</p>
+            <p><strong>Что первым важно определить при разработке курса?</strong><br>Learning objectives и потребности аудитории.</p>
+            <p><strong>Зачем нужен feedback?</strong><br>Чтобы студент понимал ошибки и мог улучшить результат.</p>
+          </div>
+
+          <div class="callout">
+            <strong>Финальный вывод:</strong> TP06 стоит учить лучше, чем TP05. Здесь есть реальные экзаменационные термины: Instructional Design, Merrill, ADDIE, SAM, Evaluation, Prototype и Feedback.
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 PDF Notes · TMEL TP06</p>
+      <a href="index.html">Вернуться на главную</a>
+    </div>
+  </footer>
+</body>
+</html>
