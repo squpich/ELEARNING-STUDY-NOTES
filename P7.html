@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TMEL TP07 — краткий экзаменационный конспект</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a href="index.html" class="logo">PDF Notes</a>
+      <nav class="main-nav" aria-label="Навигация по странице">
+        <a href="#accessibility">Доступность</a>
+        <a href="#udl">UDL</a>
+        <a href="#wcag">WCAG</a>
+        <a href="#analytics">Analytics</a>
+        <a href="#systems">Системы</a>
+        <a href="#exam">Экзамен</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Переключить тему">
+        <span class="theme-toggle__icon">☾</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section note-hero reveal">
+      <div class="container note-layout">
+        <p class="eyebrow">TMEL · TP07 · кратко для экзамена</p>
+        <h1>Инклюзия, доступность, UX, аналитика и технологии e-learning</h1>
+        <p class="hero-text">
+          Сокращённый конспект без воды: только понятия, которые реально могут попасть в тест
+          или пригодиться для короткого ответа.
+        </p>
+
+        <div class="note-meta-grid">
+          <div class="note-meta-card">
+            <span>Главный фокус</span>
+            <strong>Accessibility · UDL · WCAG</strong>
+          </div>
+          <div class="note-meta-card">
+            <span>Технологии</span>
+            <strong>LMS · LCMS · CMS · SCORM · xAPI</strong>
+          </div>
+          <div class="note-meta-card">
+            <span>Формат</span>
+            <strong>Коротко, но не бедно</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="accessibility" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>1. Инклюзивное образование и доступность</h2>
+
+          <div class="callout">
+            <strong>Инклюзивное образование</strong> — это подход, при котором все студенты должны иметь возможность полноценно участвовать в обучении, независимо от физических, когнитивных, социальных или технологических ограничений.
+          </div>
+
+          <p>
+            <strong>Accessibility</strong> — это не “дополнительная опция”, а условие качества e-learning.
+            Курс должен быть понятным, управляемым и доступным для разных пользователей.
+          </p>
+
+          <h3>4 вида доступности</h3>
+          <div class="responsive-table">
+            <table class="study-table">
+              <thead>
+                <tr>
+                  <th>Вид</th>
+                  <th>Смысл</th>
+                  <th>Пример</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Architectural</strong></td>
+                  <td>Устранение физических барьеров.</td>
+                  <td>Рампы, лифты, доступное пространство.</td>
+                </tr>
+                <tr>
+                  <td><strong>Communicational</strong></td>
+                  <td>Информация должна быть понятна разным пользователям.</td>
+                  <td>Субтитры, transcripts, простые инструкции, audio description.</td>
+                </tr>
+                <tr>
+                  <td><strong>Curricular</strong></td>
+                  <td>Контент и задания адаптируются под разные способы обучения.</td>
+                  <td>Разные форматы материалов, разные способы ответа.</td>
+                </tr>
+                <tr>
+                  <td><strong>Attitudinal</strong></td>
+                  <td>Отсутствие предрассудков, стереотипов и низких ожиданий.</td>
+                  <td>Уважение, эмпатия, принятие diversity.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Типичные ошибки доступности</h3>
+          <div class="compact-list">
+            <p><strong>Низкий contrast:</strong> текст плохо читается на фоне.</p>
+            <p><strong>Нет alt text:</strong> screen reader не объяснит смысл изображения.</p>
+            <p><strong>Нет keyboard navigation:</strong> пользователь не может пройти модуль без мыши.</p>
+            <p><strong>Цвет как единственный индикатор:</strong> например, только красный/зелёный без текста или иконки.</p>
+            <p><strong>Видео без subtitles:</strong> часть пользователей теряет содержание.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="udl" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>2. UDL — Universal Design for Learning</h2>
+
+          <p>
+            <strong>UDL</strong> — это универсальный дизайн обучения. Его идея: проектировать курс сразу для разных студентов,
+            а не добавлять адаптации только после появления проблем.
+          </p>
+
+          <div class="callout">
+            <strong>Запомнить для теста:</strong> UDL связан с несколькими способами представления информации, вовлечения студента и выражения результата.
+          </div>
+
+          <div class="topic-grid">
+            <div class="topic-card">
+              <h3>1. Engagement</h3>
+              <p>Как заинтересовать и удержать студента: мотивация, выбор, прогресс, саморегуляция.</p>
+            </div>
+            <div class="topic-card">
+              <h3>2. Representation</h3>
+              <p>Как представить информацию: текст, схема, видео, аудио, инфографика, примеры.</p>
+            </div>
+            <div class="topic-card">
+              <h3>3. Action & Expression</h3>
+              <p>Как студент действует и показывает знания: тест, проект, ответ, обсуждение, практическая задача.</p>
+            </div>
+          </div>
+
+          <h3>Пример применения UDL</h3>
+          <ul>
+            <li>Один и тот же материал можно дать текстом, схемой и видео.</li>
+            <li>К видео добавить subtitles или transcript.</li>
+            <li>Сложную тему разбить на короткие части.</li>
+            <li>Проверку сделать не только тестом, но и маленьким заданием или сценарием.</li>
+            <li>Feedback должен объяснять ошибку, а не просто писать “неправильно”.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="wcag" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>3. WCAG и POUR</h2>
+
+          <p>
+            <strong>WCAG</strong> — это правила доступности web-контента. Они нужны, чтобы сайты и e-learning-материалы
+            могли использовать люди с разными ограничениями: зрительными, слуховыми, моторными или когнитивными.
+          </p>
+
+          <h3>4 принципа POUR</h3>
+          <div class="responsive-table">
+            <table class="study-table">
+              <thead>
+                <tr>
+                  <th>Принцип</th>
+                  <th>Смысл</th>
+                  <th>Что делать</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Perceivable</strong></td>
+                  <td>Информация должна восприниматься.</td>
+                  <td>Alt text, subtitles, хороший contrast, читаемый шрифт.</td>
+                </tr>
+                <tr>
+                  <td><strong>Operable</strong></td>
+                  <td>Интерфейсом можно управлять.</td>
+                  <td>Keyboard navigation, правильный tab order, достаточно времени.</td>
+                </tr>
+                <tr>
+                  <td><strong>Understandable</strong></td>
+                  <td>Контент и интерфейс должны быть понятными.</td>
+                  <td>Простой язык, ясные кнопки, предсказуемая навигация.</td>
+                </tr>
+                <tr>
+                  <td><strong>Robust</strong></td>
+                  <td>Контент должен работать с разными устройствами и assistive technologies.</td>
+                  <td>Semantic HTML, корректные формы, кнопки, headings.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Уровни WCAG</h3>
+          <div class="compact-list">
+            <p><strong>A:</strong> минимальный уровень, убирает самые грубые барьеры.</p>
+            <p><strong>AA:</strong> практический стандарт для большинства сайтов и публичных платформ.</p>
+            <p><strong>AAA:</strong> самый высокий уровень, но не всегда реалистичен для всех материалов.</p>
+          </div>
+
+          <div class="callout">
+            <strong>Минимум для своего сайта:</strong> semantic HTML, alt text, contrast 4.5:1, keyboard navigation, subtitles/transcript, не использовать цвет как единственный смысловой сигнал.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="analytics" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>4. Engagement Analytics и Learning Analytics</h2>
+
+          <p>
+            В тесте очень вероятен вопрос про <strong>Learning Analytics</strong>, потому что в примере экзамена уже был похожий вопрос.
+            Главное — не путать аналитику с автоматической генерацией контента или заменой преподавателя.
+          </p>
+
+          <div class="two-column">
+            <div class="info-card">
+              <h3>Engagement Analytics</h3>
+              <p>Анализирует вовлеченность студента: входы, клики, время в модуле, участие в quiz/forum, частоту доступа.</p>
+              <p><strong>Вопрос:</strong> насколько студент взаимодействует с курсом?</p>
+            </div>
+            <div class="info-card">
+              <h3>Learning Analytics</h3>
+              <p>Анализирует данные обучения для улучшения процесса: progress, performance, ошибки, трудности, результаты.</p>
+              <p><strong>Вопрос:</strong> как улучшить обучение на основе данных?</p>
+            </div>
+          </div>
+
+          <h3>Примеры KPI</h3>
+          <div class="compact-list">
+            <p><strong>Completion rate:</strong> сколько студентов завершили модуль.</p>
+            <p><strong>Quiz score:</strong> насколько понятен материал.</p>
+            <p><strong>Error patterns:</strong> где чаще всего ошибаются.</p>
+            <p><strong>Time to complete:</strong> сколько времени занимает прохождение.</p>
+            <p><strong>Interaction rate:</strong> используют ли студенты интерактивные элементы.</p>
+          </div>
+
+          <div class="callout">
+            <strong>Этика:</strong> данные студентов нужно защищать. Аналитика должна помогать обучению, а не просто контролировать студентов.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="systems" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>5. LMS, LCMS, CMS и технологии e-learning</h2>
+
+          <p>
+            Эти понятия часто спрашиваются в тестах, потому что их легко оформить как вопрос с вариантами ответа.
+          </p>
+
+          <div class="responsive-table">
+            <table class="study-table">
+              <thead>
+                <tr>
+                  <th>Понятие</th>
+                  <th>Что это</th>
+                  <th>Примеры</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>LMS</strong></td>
+                  <td>Система управления обучением: курсы, студенты, задания, оценки, прогресс.</td>
+                  <td>Moodle, Canvas, Google Classroom.</td>
+                </tr>
+                <tr>
+                  <td><strong>LCMS</strong></td>
+                  <td>Система создания и управления учебным контентом.</td>
+                  <td>Articulate Rise, Storyline, Captivate.</td>
+                </tr>
+                <tr>
+                  <td><strong>CMS</strong></td>
+                  <td>Система управления контентом сайта.</td>
+                  <td>WordPress, Joomla, Drupal.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Web 2.0, Web 3.0, mobile</h3>
+          <div class="compact-list">
+            <p><strong>Web 2.0:</strong> социальное взаимодействие, совместное создание и обмен контентом.</p>
+            <p><strong>Web 3.0:</strong> semantic technologies, artificial intelligence, personalization, decentralization of data.</p>
+            <p><strong>Mobile learning:</strong> обучение через мобильные приложения, короткие активности, повторение и практика.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>6. SCORM, xAPI, cmi5 и LTI</h2>
+
+          <p>
+            Это стандарты и механизмы совместимости. Они нужны, чтобы e-learning-контент мог работать в разных системах
+            и чтобы можно было отслеживать обучение.
+          </p>
+
+          <div class="responsive-table">
+            <table class="study-table">
+              <thead>
+                <tr>
+                  <th>Стандарт</th>
+                  <th>Смысл</th>
+                  <th>Зачем нужен</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>SCORM</strong></td>
+                  <td>Стандарт упаковки e-learning-контента для LMS.</td>
+                  <td>Запуск курса в LMS, tracking progress, score, completion.</td>
+                </tr>
+                <tr>
+                  <td><strong>xAPI</strong></td>
+                  <td>Experience API для записи учебных действий.</td>
+                  <td>Отслеживает обучение не только внутри LMS.</td>
+                </tr>
+                <tr>
+                  <td><strong>cmi5</strong></td>
+                  <td>Профиль, который связывает xAPI с LMS-логикой.</td>
+                  <td>Комбинирует гибкость xAPI и структуру LMS.</td>
+                </tr>
+                <tr>
+                  <td><strong>LTI</strong></td>
+                  <td>Learning Tools Interoperability.</td>
+                  <td>Подключает внешние учебные инструменты к LMS.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="callout">
+            <strong>Для теста:</strong> SCORM и xAPI — это не редакторы видео и не системы безопасности, а стандарты interoperability/tracking в e-learning.
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>7. UX, интерактивность, feedback и Kanban</h2>
+
+          <h3>UX & performance</h3>
+          <p>
+            <strong>UX</strong> — насколько студенту удобно и понятно проходить модуль.
+            Важны usability, utility, efficiency, satisfaction, navigation flow и performance.
+          </p>
+
+          <h3>Интерактивность</h3>
+          <p>
+            Интерактивность нужна не для красоты, а для active learning. Студент должен действовать:
+            отвечать, выбирать, сопоставлять, проходить scenario, получать feedback.
+          </p>
+
+          <div class="compact-list">
+            <p><strong>Quiz:</strong> проверка понимания.</p>
+            <p><strong>Scenario:</strong> решение в учебной ситуации.</p>
+            <p><strong>Drag & drop:</strong> сопоставление, классификация, порядок.</p>
+            <p><strong>Automatic feedback:</strong> объясняет, почему ответ правильный или неправильный.</p>
+          </div>
+
+          <h3>Kanban</h3>
+          <p>
+            <strong>Kanban</strong> — метод визуального управления задачами. Обычно используются колонки:
+            To Do, In Progress, Review, Done. Он нужен, чтобы показать процесс работы над проектом.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="exam" class="section reveal">
+      <div class="container note-layout">
+        <article class="note-content">
+          <h2>8. Что точно запомнить к тесту</h2>
+
+          <div class="compact-list">
+            <p><strong>Inclusive education:</strong> все студенты должны полноценно участвовать в обучении.</p>
+            <p><strong>Accessibility:</strong> устранение барьеров доступа к контенту, коммуникации и взаимодействию.</p>
+            <p><strong>4 types of accessibility:</strong> architectural, communicational, curricular, attitudinal.</p>
+            <p><strong>UDL:</strong> multiple means of engagement, representation, action & expression.</p>
+            <p><strong>WCAG:</strong> perceivable, operable, understandable, robust.</p>
+            <p><strong>Learning Analytics:</strong> анализ данных для улучшения процесса обучения.</p>
+            <p><strong>Engagement Analytics:</strong> анализ вовлеченности и участия студентов.</p>
+            <p><strong>LMS:</strong> управление обучением; <strong>LCMS:</strong> управление учебным контентом; <strong>CMS:</strong> управление сайтом.</p>
+            <p><strong>Web 3.0:</strong> семантические технологии, AI, персонализация, децентрализация данных.</p>
+            <p><strong>SCORM/xAPI:</strong> стандарты совместимости и tracking учебных данных.</p>
+            <p><strong>Kanban:</strong> визуальное управление рабочими задачами.</p>
+          </div>
+
+          <h3>Мини-тест для себя</h3>
+          <div class="compact-list">
+            <p><strong>Что такое UDL?</strong><br>Подход, где обучение проектируется через разные способы вовлечения, представления информации и выражения результата.</p>
+            <p><strong>Что такое POUR?</strong><br>Perceivable, Operable, Understandable, Robust.</p>
+            <p><strong>Чем LMS отличается от LCMS?</strong><br>LMS управляет обучением и студентами, LCMS — созданием и переиспользованием учебного контента.</p>
+            <p><strong>Что делает Learning Analytics?</strong><br>Анализирует учебные данные, чтобы улучшить процесс обучения.</p>
+            <p><strong>Для чего нужен SCORM?</strong><br>Чтобы e-learning-модуль работал в LMS и можно было отслеживать прогресс, оценку и завершение.</p>
+            <p><strong>Что такое Kanban?</strong><br>Визуальный метод управления задачами и рабочим процессом.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 PDF Notes · TMEL TP07</p>
+      <a href="index.html">Вернуться на главную</a>
+    </div>
+  </footer>
+</body>
+</html>
